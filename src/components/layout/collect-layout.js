@@ -1,14 +1,15 @@
 import React from 'react';
-import MuseumHeader from './museum-header';
+import CollectHeader from './collect-header';
 import Footer from './footer';
 import { Outlet } from 'react-router-dom';
-const Layout = ({ children }) => {
+
+const CollectLayout = ({ children }) => {
     return (
         <React.Fragment>
-            <MuseumHeader />
+            <CollectHeader />
             <Outlet />
             <Footer />
         </React.Fragment>
     );
 };
-export default Layout;
+export default CollectLayout;

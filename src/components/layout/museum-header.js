@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 import NavBarHome from './navbar_home'
 
-const Header = () => {
+const MuseumHeader = () => {
     useEffect(() => {
 
     });
@@ -37,4 +37,4 @@ const Header = () => {
         </header>
     );
 };
-export default Header;
+export default MuseumHeader;

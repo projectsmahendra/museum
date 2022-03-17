@@ -44,7 +44,7 @@ const NavBarHome = () => {
                             </li>
                             <li class="nav-item">
                                 <div class="nav-link-box active">
-                                    <a class="nav-link" href="openings.html">OPENINGS</a>
+                                    <a class="nav-link" href="openings">OPENINGS</a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown view ml-0">
@@ -81,7 +81,7 @@ const NavBarHome = () => {
                                 <a class="nav-link" href="#">MY MUSEUM</a>
                             </li>
                             <li class="nav-item mr-0">
-                                <a class="nav-link my-btn mt-6" href="current-auctions.html">COLLECT</a>
+                                <a class="nav-link my-btn mt-6" href="/current-auctions">COLLECT</a>
                             </li>
                         </ul>
                     </div>

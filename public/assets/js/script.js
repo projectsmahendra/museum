@@ -131,48 +131,49 @@
 
 
 
+	$(document).ready(function () {
+		// Wishlist (at current-auctions.html page)
+		$(".wishlist").click(function () {
 
-	// Wishlist (at current-auctions.html page)
-	$(".wishlist").click(function () {
+			$(this).toggleClass("itsdone");
+			// $(this).parent().parent().parent().parent().toggleClass("itsdone-parent");	
 
-		$(this).toggleClass("itsdone");
-		// $(this).parent().parent().parent().parent().toggleClass("itsdone-parent");	
+			if ($(this).hasClass("itsdone")) {
+				$(this).parent().parent().parent().parent().removeClass("removed-wish");
+				$(this).parent().parent().parent().parent().addClass("itsdone-parent added-wish");
+			} else {
+				$(this).parent().parent().parent().parent().removeClass("itsdone-parent added-wish");
+				$(this).parent().parent().parent().parent().addClass("itsdone-parent removed-wish");
+			}
 
-		if ($(this).hasClass("itsdone")) {
-			$(this).parent().parent().parent().parent().removeClass("removed-wish");
-			$(this).parent().parent().parent().parent().addClass("itsdone-parent added-wish");
-		} else {
-			$(this).parent().parent().parent().parent().removeClass("itsdone-parent added-wish");
-			$(this).parent().parent().parent().parent().addClass("itsdone-parent removed-wish");
-		}
+		});
+
+		$(".alert-close").click(function () {
+			$(".current-bottom").removeClass("itsdone-parent");
+		});
+
+		// wishlist tooltip
+		$('[data-toggle="tooltip"]').tooltip();
+
+
+		var $grid = $('.grid').masonry({
+			// columnWidth: 120,
+			itemSelector: '.grid-item',
+			gutter: 10
+		});
+
+		// $grid.on( 'click', '.curr-list-box', function( event ) {
+		// 	// $( event.currentTarget ).parent('.grid-item').toggleClass('is-expanded');
+		// 	$(this).parent().parent().parent().parent().parent().parent().parent().toggleClass("is-expanded");
+		// 	$grid.masonry();
+		// });
+
+		$grid.on('click', '.cbul', function (event) {
+			$(this).parent().parent().parent().parent().parent().parent().toggleClass("is-expanded");
+			$grid.masonry();
+		});
 
 	});
-
-	$(".alert-close").click(function () {
-		$(".current-bottom").removeClass("itsdone-parent");
-	});
-
-	// wishlist tooltip
-	$('[data-toggle="tooltip"]').tooltip();
-
-	var $grid = $('.grid').masonry({
-		// columnWidth: 120,
-		itemSelector: '.grid-item',
-		gutter: 10
-	});
-
-	// $grid.on( 'click', '.curr-list-box', function( event ) {
-	// 	// $( event.currentTarget ).parent('.grid-item').toggleClass('is-expanded');
-	// 	$(this).parent().parent().parent().parent().parent().parent().parent().toggleClass("is-expanded");
-	// 	$grid.masonry();
-	// });
-
-	$grid.on('click', '.cbul', function (event) {
-		$(this).parent().parent().parent().parent().parent().parent().toggleClass("is-expanded");
-		$grid.masonry();
-	});
-
-
 	// List (at current-auctions.html page)
 	// $(".curr-list-box").click(function(){
 
