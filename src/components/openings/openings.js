@@ -71,7 +71,7 @@ const Openings = () => {
 
         <>
             {/* <!-- page title --> */}
-            <section class="page-title-section">
+            <section class="page-title-section top-section">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8">

@@ -7,9 +7,11 @@ const Collect = () => {
     return (
         <>
             {/* <!-- breadcrumb --> */}
-            <section class="breadcrumb-section section">
+            <section class="breadcrumb-section section top-section">
                 <div class="container">
                     <ul>
+                        <li class="bread-parent">COLLECT</li>
+                        <li class="bread-seperator"> <img class="img-fluid" src="../../assets/images/icons/breadcrumb-arrow.png" alt="breadcrumb" /> </li>
                         <li class="bread-parent">AUCTIONS</li>
                         <li class="bread-seperator"> <img class="img-fluid" src="../../assets/images/icons/breadcrumb-arrow.png" alt="breadcrumb" /> </li>
                         <li class="bread-child">CURRENT AUCTIONS</li>

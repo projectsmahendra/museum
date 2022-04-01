@@ -12,7 +12,7 @@ const CollectHeader = () => {
         <header class="fixed-top header">
             {/* <!-- top-most header --> */}
             <div class="topmost-header py-1 bg-white">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="/">
                     <ul class="list-inline d-inline">
                         <li class="list-inline-item mx-0"><img src="../../assets/images/logo.png" class="head-logo" alt="logo" /></li>
                         <li class="list-inline-item mx-0"><div class="logoorg"><img src="../../assets/images/logoorg.png" alt="logo" /></div></li>
@@ -61,7 +61,7 @@ const CollectHeader = () => {
 
                             <ul class="navbar-nav text-center lftnav back-btn left-side">
                                 <li>
-                                    <a class="nav-link" href="index.html"><img class="img-fluid" src="../../assets/images/icons/back.png" alt="icon" /> COLLECT</a>
+                                    <a class="nav-link collect-nav-link" href="/"><img class="img-fluid" src="../../assets/images/icons/back.png" alt="icon" /> COLLECT</a>
                                 </li>
                             </ul>
                             <ul class="navbar-nav main-nav text-center mid-side">
@@ -74,9 +74,9 @@ const CollectHeader = () => {
                                     </div>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <div class="menu-container">
-                                            <a class="dropdown-item" href="#"><div class="mr-10 grey-gold current"></div> CURRENT</a>
-                                            <a class="dropdown-item" href="#"><div class="mr-10 grey-gold upcoming"></div> UPCOMING</a>
-                                            <a class="dropdown-item" href="#"><div class="mr-10 grey-gold results"></div> RESULTS</a>
+                                            <a class="dropdown-item" href="/current-auctions"><div class="mr-10 grey-gold current"></div> CURRENT</a>
+                                            <a class="dropdown-item" href="/upcoming-auctions"><div class="mr-10 grey-gold upcoming"></div> UPCOMING</a>
+                                            <a class="dropdown-item" href="/auction-results"><div class="mr-10 grey-gold results"></div> RESULTS</a>
                                         </div>
                                     </div>
                                 </li>
@@ -89,8 +89,8 @@ const CollectHeader = () => {
                                     </div>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <div class="menu-container">
-                                            <a class="dropdown-item active-gold" href="#"><div class="mr-10 grey-gold comming-art"></div> ART</a>
-                                            <a class="dropdown-item" href="#"><div class="mr-10 grey-gold comming-artifacts"></div> ARTIFACTS</a>
+                                            <a class="dropdown-item active-gold" href="/art-results"><div class="mr-10 grey-gold comming-art"></div> ART</a>
+                                            <a class="dropdown-item" href="/artifacts-results"><div class="mr-10 grey-gold comming-artifacts"></div> ARTIFACTS</a>
                                         </div>
                                     </div>
                                 </li>
@@ -105,7 +105,7 @@ const CollectHeader = () => {
                                         <div class="menu-container menu-grid">
                                             <div class="row">
                                                 <div class="col-md-4">
-                                                    <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/all-museums.png" alt="icon" /></div> ALL</a>
+                                                    <a class="dropdown-item" href="/all-museums"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/all-museums.png" alt="icon" /></div> ALL</a>
                                                     <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/themet.png" alt="icon" /></div> THE MET</a>
                                                     <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/fieldmuseum.png" alt="icon" /></div> THE FIELD MUSEUM</a>
                                                     <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/sanfransisco.png" alt="icon" /></div> SANFRANSISCO MUSEUM</a>
@@ -140,7 +140,7 @@ const CollectHeader = () => {
                                         <div class="menu-container menu-grid">
                                             <div class="row">
                                                 <div class="col-md-4">
-                                                    <a class="dropdown-item" href="#"><div class="mr-10 grey-gold comming-art"></div> ALL</a>
+                                                    <a class="dropdown-item" href="/all-arts"><div class="mr-10 grey-gold comming-art"></div> ALL</a>
                                                     {/* <!-- <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/art/art-all.png" alt="icon"></div> ALL</a> --> */}
                                                     <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/art/sculpture.png" alt="icon" /></div> SCULPTURE</a>
                                                     <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/art/paintings.png" alt="icon" /></div> PAINTINGS</a>
@@ -174,7 +174,7 @@ const CollectHeader = () => {
                                         <div class="menu-container menu-grid">
                                             <div class="row">
                                                 <div class="col-md-4">
-                                                    <a class="dropdown-item" href="#"><div class="mr-10 grey-gold comming-artifacts"></div> ALL</a>
+                                                    <a class="dropdown-item" href="all-artifacts"><div class="mr-10 grey-gold comming-artifacts"></div> ALL</a>
                                                     {/* <!-- <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/artifacts-all.png" alt="icon"></div> ALL</a> --> */}
                                                     <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/dinosaurs.png" alt="icon" /></div> DINOSAURS</a>
                                                     <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/fossils.png" alt="icon" /></div> FOSSILS</a>
@@ -202,10 +202,10 @@ const CollectHeader = () => {
                             </ul>
                             <ul class="navbar-nav text-center lftnav ml-auto cart-side right-side">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#"><img class="img-fluid" src="../../assets/images/icons/head-wishlist.png" alt="icon" /> <span>0</span></a>
+                                    <a class="nav-link collect-nav-link" href="#"><img class="img-fluid" src="../../assets/images/icons/head-wishlist.png" alt="icon" /> <span>0</span></a>
                                 </li>
                                 <li class="nav-item mr-0">
-                                    <a class="nav-link" href="#"><img class="img-fluid" src="../../assets/images/icons/cart.png" alt="icon" /> <span>0</span></a>
+                                    <a class="nav-link collect-nav-link" href="#"><img class="img-fluid" src="../../assets/images/icons/cart.png" alt="icon" /> <span>0</span></a>
                                 </li>
                             </ul>
                         </div>

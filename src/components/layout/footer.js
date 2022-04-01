@@ -30,9 +30,9 @@ const Footer = () => {
                             <div class="col-lg-3 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
                                 <h4 class="foot-head text-white mb-3">Quick Links</h4>
                                 <ul class="foot-links list-unstyled">
-                                    <li class="mb-2"><a class="text-white" href="#">Museums</a></li>
-                                    <li class="mb-2"><a class="text-white" href="#">Openings</a></li>
-                                    <li class="mb-2"><a class="text-white" href="#">Experiences</a></li>
+                                    <li class="mb-2"><a class="text-white" href="museum">Museums</a></li>
+                                    <li class="mb-2"><a class="text-white" href="openings">Openings</a></li>
+                                    <li class="mb-2"><a class="text-white" href="virtual-exhibits">Experiences</a></li>
                                     <li class="mb-2"><a class="text-white" href="#">Community</a></li>
                                     <li class="mb-2"><a class="text-white" href="#">Roadmap</a></li>
                                 </ul>
@@ -73,7 +73,7 @@ const Footer = () => {
                 <div class="copyright bg-footer">
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-8 text-sm-left text-center">
+                            <div class="col-sm-7 text-sm-left">
                                 <p class="copy-head mb-1">Copyright © 2021 museum.org</p>
                                 <p class="copy-dtl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolorena aliqua. Ut enim ad minim veniam, quis nostrud exercit ation ullamco laboris amet, consectetur ad.</p>
                             </div>
