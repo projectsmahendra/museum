@@ -51,7 +51,7 @@ const NavBarHome = () => {
                                         <a class="dropdown-item" href="virtual-tours"><div class="mr-10 grey-gold virtualtours"></div> VIRTUAL TOURS</a>
                                         <a class="dropdown-item" href="virtual-museums"><div class="mr-10 grey-gold virtualmuseums"></div> VIRTUAL MUSEUMS</a>
                                         <a class="dropdown-item" href="games"><div class="mr-10 grey-gold games"></div> GAMES</a>
-                                        <a class="dropdown-item" href="#"><div class="mr-10 grey-gold metaverse"></div> METAVERSE</a>
+                                        <a class="dropdown-item" href="metaverse"><div class="mr-10 grey-gold metaverse"></div> METAVERSE</a>
                                     </div>
                                 </div>
                             </li>

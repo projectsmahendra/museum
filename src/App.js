@@ -9,6 +9,7 @@ import VirtualMuseums from './components/experiences/virtual-museums';
 import VirtualExhibits from './components/experiences/virtual-exhibits';
 import VirtualTours from './components/experiences/virtual-tours';
 import Games from './components/experiences/games';
+import Metaverse from './components/experiences/metaverse';
 
 import Collect from './components/collect/collect';
 import Upcoming from './components/collect/upcoming';
@@ -32,6 +33,7 @@ function App() {
           <Route path="/virtual-exhibits" element={<VirtualExhibits />} />
           <Route path="/virtual-tours" element={<VirtualTours />} />
           <Route path="/games" element={<Games />} />
+          <Route path="/metaverse" element={<Metaverse />} />
         </Route>
 
         <Route path="/current-auctions" element={<CollectLayout />} >

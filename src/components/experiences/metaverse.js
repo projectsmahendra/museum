@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const Games = () => {
+const Metaverse = () => {
     // const [museums, setMuseums] = useState([]);
     const [topMuseums, setTopMuseums] = useState([]);
 
@@ -75,7 +75,7 @@ const Games = () => {
                     <ul>
                         <li class="bread-parent">EXPERIENCES</li>
                         <li class="bread-seperator"> <img class="img-fluid" src="../../assets/images/icons/breadcrumb-arrow.png" alt="breadcrumb" /> </li>
-                        <li class="bread-child">GAMES</li>
+                        <li class="bread-child">METAVERSE</li>
                     </ul>
                 </div>
             </section>
@@ -84,7 +84,7 @@ const Games = () => {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8">
-                            <h1 class="page-title list-inline-item">Games</h1>
+                            <h1 class="page-title list-inline-item">Metaverse</h1>
                             <p class="page-details">Lorem consectetur adipis</p>
                         </div>
                     </div>
@@ -110,4 +110,4 @@ const Games = () => {
         </>
     );
 };
-export default Games;
+export default Metaverse;
