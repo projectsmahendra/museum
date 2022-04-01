@@ -84,7 +84,7 @@ const CollectHeader = () => {
                                     <div class="nav-link-box">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                                             aria-haspopup="true" aria-expanded="false">
-                                            COMMING SOON
+                                            COMING SOON
                                         </a>
                                     </div>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
