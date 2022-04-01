@@ -28,20 +28,6 @@ const NavBarHome = () => {
                             </li>
                         </ul>
                         <ul class="navbar-nav main-nav text-center pl-50">
-                            {/* <li class="nav-item dropdown view ml-0">
-                                <div class="nav-link-box">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                        aria-haspopup="true" aria-expanded="false">
-                                        MUSEUMS
-                                    </a>
-                                </div>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <div class="menu-container">
-                                        <a class="dropdown-item" href="/museum"><div class="mr-10 grey-gold museums"></div> MUSEUMS</a>
-                                        <a class="dropdown-item" href="#"><div class="mr-10 grey-gold virtualmuseums"></div> VIRTUAL MUSEUMS</a>
-                                    </div>
-                                </div>
-                            </li> */}
                             <li class="nav-item">
                                 <div class="nav-link-box">
                                     <a class="nav-link" href="museum">MUSEUMS</a>

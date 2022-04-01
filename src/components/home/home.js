@@ -89,16 +89,17 @@ const Home = () => {
             <section class="section mission-section bg-cover" style={{ backgroundImage: `url(${museumBgBackground})` }}>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 col-sm-4 position-relative success-video">
+                        <div class="col-lg-6 col-sm-4 position-relative success-video hidden-mobile">
                             <img class="museum-img img-fluid mb-4" src="../../assets/images/backgrounds/museum.png" alt="museum" />
                         </div>
                         <div class="col-lg-6 col-sm-8">
-                            <div class="p-5 abt-box">
+                            <div class="abt-box">
                                 <img class="img-fluid mb-4 head-line ml-auto" src="../../assets/images/icons/head-line.png" alt="head-line" />
                                 <h2 class="mission-section-title text-dark">About our Mission</h2>
                                 <p class="mission-section-detail text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris amet, consectetur</p>
                                 <a href="#" class="my-btn mission-section-btn ml-auto">EXPLORE MORE <img class="img-fluid ml-15 mt-4" src="../../assets/images/icons/arr-right.png" alt="arrow" /></a>
                             </div>
+                            <img class="museum-img-mob img-fluid hidden-laptop" src="../../assets/images/backgrounds/museum.png" alt="museum" />
                         </div>
                     </div>
                 </div>
@@ -124,7 +125,7 @@ const Home = () => {
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 col-sm-8">
-                            <div class="p-4 benefits-box">
+                            <div class="benefits-box">
                                 <img class="img-fluid mb-4 head-line" src="../../assets/images/icons/head-line.png" alt="head-line" />
                                 <h2 class="benefits-section-title text-dark">Museum &  Patron benefits</h2>
                                 <p class="benefits-section-detail text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris amet, consectetur</p>
@@ -161,7 +162,7 @@ const Home = () => {
                             {/* <!-- <img class="museum-img img-fluid mb-4" src="../../assets/images/backgrounds/museum.png" alt="museum"> --> */}
                         </div>
                         <div class="col-lg-6 col-sm-8">
-                            <div class="p-5 works-box">
+                            <div class="works-box">
                                 <img class="img-fluid mb-4 head-line ml-auto" src="../../assets/images/icons/head-line.png" alt="head-line" />
                                 <h2 class="works-section-title text-dark">How it works</h2>
                                 <p class="works-section-detail text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris amet, consectetur</p>

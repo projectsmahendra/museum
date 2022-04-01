@@ -329,7 +329,7 @@ const Museum = () => {
             {/* <!-- Recent Views --> */}
             <section class="search-result-section recent-views section">
                 <div class="container">
-                    <h2 class="searth-title">Recent Views</h2>
+                    <h2 class="searth-title mob-center">Recent Views</h2>
                     {/* <!-- Search Result --> */}
                     <div class="row justify-content-center">
                         {/* <!-- item --> */}

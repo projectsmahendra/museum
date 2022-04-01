@@ -27,7 +27,7 @@ const Footer = () => {
                     <div class="container">
                         <div class="row">
                             {/* <!-- Quick Links --> */}
-                            <div class="col-lg-3 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-6 mb-5 mb-md-0 mob-center">
                                 <h4 class="foot-head text-white mb-3">Quick Links</h4>
                                 <ul class="foot-links list-unstyled">
                                     <li class="mb-2"><a class="text-white" href="museum">Museums</a></li>
@@ -38,7 +38,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                             {/* <!-- Museum --> */}
-                            <div class="col-lg-3 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-6 mb-5 mb-md-0 mob-center">
                                 <h4 class="foot-head text-white mb-3">Museum</h4>
                                 <ul class="foot-links list-unstyled">
                                     <li class="mb-2"><a class="text-white" href="#">About us</a></li>
@@ -49,7 +49,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                             {/* <!-- Legal --> */}
-                            <div class="col-lg-3 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-6 mb-5 mb-md-0 mob-center">
                                 <h4 class="foot-head text-white mb-3">Legal</h4>
                                 <ul class="foot-links list-unstyled">
                                     <li class="mb-2"><a class="text-white" href="#">Privacy Policy</a></li>
@@ -58,7 +58,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                             {/* <!-- Contact --> */}
-                            <div class="col-lg-3 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-6 mb-5 mb-md-0 mob-center">
                                 <h4 class="foot-head text-white mb-3">Contact</h4>
                                 <ul class="foot-links foot-icons list-unstyled">
                                     <li class="mb-3"><a class="text-dark" href="#"><i class="ti-facebook"></i></a></li>
