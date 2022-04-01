@@ -176,50 +176,6 @@ const Museum = () => {
             </section>
 
 
-            <section class="section">
-                <div class="container">
-                    <h2 class="searth-title">Search Museums</h2>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <select id="srchcity" class="form-control">
-                                <option value=""></option>
-                                <option>One</option>
-                                <option>Two</option>
-                            </select>
-                        </div>
-
-                        <div class="form-floating">
-                            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                                <option selected>Open this select menu</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                            <label for="floatingSelect">Works with selects</label>
-                        </div>
-
-
-                        <div class="dropdown">
-                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown link
-                            </a>
-
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </div>
-
-
-
-                    </div>
-
-
-
-                </div>
-            </section>
-
 
             {/* <!-- Searchbar --> */}
             <section class="search-filter-section section">

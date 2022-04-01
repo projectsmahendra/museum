@@ -86,7 +86,8 @@ const Home = () => {
             {/* <!-- /Creation-section --> */}
 
             {/* <!-- About our Mission --> */}
-            <section class="section mission-section bg-cover" style={{ backgroundImage: `url(${museumBgBackground})` }}>
+            {/* <section class="section mission-section bg-cover" style={{ backgroundImage: `url(${museumBgBackground})` }}></section> */}
+            <section class="section mission-section parallax-window" data-parallax="scroll" data-image-src="../../assets/images/backgrounds/museum-bg.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 col-sm-4 position-relative success-video hidden-mobile">
@@ -121,7 +122,8 @@ const Home = () => {
             {/* <!-- /bg4-section --> */}
 
             {/* <!-- Museum &  Patron benefits --> */}
-            <section class="section benefits-section bg-cover" style={{ backgroundImage: `url(${benefitsBgBackground})` }} >
+            {/* <section class="section benefits-section bg-cover" style={{ backgroundImage: `url(${benefitsBgBackground})` }} > */}
+            <section class="section mission-section parallax-window" data-parallax="scroll" data-image-src="../../assets/images/backgrounds/benefits-bg.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 col-sm-8">
@@ -155,7 +157,8 @@ const Home = () => {
             {/* <!-- /bg3-section --> */}
 
             {/* <!-- How it works --> */}
-            <section class="section works-section bg-cover" style={{ backgroundImage: `url(${worksBgBackground})` }}>
+            {/* <section class="section works-section bg-cover" style={{ backgroundImage: `url(${worksBgBackground})` }}> */}
+            <section class="section mission-section parallax-window" data-parallax="scroll" data-image-src="../../assets/images/backgrounds/works-bg.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 col-sm-4 position-relative success-video">

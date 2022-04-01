@@ -372,10 +372,17 @@ a h4:hover {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  /* background-attachment: fixed; */
 }
+  
 
 .border-primary {
   border-color: #ededf1 !important;
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
 }
 
 /* overlay */
