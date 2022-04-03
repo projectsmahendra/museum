@@ -10,10 +10,11 @@ const Home = () => {
     });
     return (
         <div>
-            <section class="hero-section overlay bg-cover" style={{ backgroundImage: `url(${heroSectionBackground})` }}>
+            {/* <!-- /hero slider --> */}
+            {/* <section class="hero-section overlay bg-cover" style={{ backgroundImage: `url(${heroSectionBackground})` }}>
                 <div class="container">
                     <div class="hero-slider">
-                        {/* <!-- slider item --> */}
+                        
                         <div class="hero-slider-item">
                             <div class="row">
                                 <div class="col-md-8">
@@ -24,7 +25,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* <!-- slider item --> */}
+                        
                         <div class="hero-slider-item">
                             <div class="row">
                                 <div class="col-md-8">
@@ -35,7 +36,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* <!-- slider item --> */}
+                        
                         <div class="hero-slider-item">
                             <div class="row">
                                 <div class="col-md-8">
@@ -56,6 +57,74 @@ const Home = () => {
                     </div>
 
                 </div>
+            </section>
+
+            <br /><br /> */}
+
+            <section class="hero-section overlay bg-cover">
+                {/* <div class="container"> */}
+                <div class="hero-slider">
+                    {/* <!-- slider item --> */}
+                    <div class="hero-slider-item" style={{ backgroundImage: `url("/assets/images/banner/banner-1.jpg")` }}>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <p class="text-white slide-tophd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">FOSSIL <img src="../../assets//images/banner/slide-tophd.png" alt="slide-tophd" /></p>
+                                    <h1 class="text-white slide-head" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Earth's hidden extinctions</h1>
+                                    <p class="text-white mb-4 slide-subhd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">Fossil record during the mass extinction</p>
+                                    <a href="#" class="my-btn hero-section-btn" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">EXPLORE MORE <img class="img-fluid ml-15 mt-4" src="../../assets/images/icons/arr-right.png" alt="arrow" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <!-- slider item --> */}
+                    <div class="hero-slider-item" style={{ backgroundImage: `url("/assets/images/banner/banner-2.jpg")` }}>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <p class="text-white slide-tophd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1"><span>FOSSIL</span> <img src="../../assets/images/banner/slide-tophd.png" alt="slide-tophd" /></p>
+                                    <h1 class="text-white slide-head" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Earth's hidden extinctions</h1>
+                                    <p class="text-white mb-4 slide-subhd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">Fossil record during the mass extinction</p>
+                                    <a href="#" class="my-btn hero-section-btn" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">EXPLORE MORE <img class="img-fluid ml-15 mt-4" src="../../assets/images/icons/arr-right.png" alt="arrow" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <!-- slider item --> */}
+                    <div class="hero-slider-item" style={{ backgroundImage: `url("/assets/images/banner/banner-3.jpg")` }}>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <p class="text-white slide-tophd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">FOSSIL <img src="../../assets/images/banner/slide-tophd.png" alt="slide-tophd" /></p>
+                                    <h1 class="text-white slide-head" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Earth's hidden extinctions</h1>
+                                    <p class="text-white mb-4 slide-subhd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">Fossil record during the mass extinction</p>
+                                    <a href="#" class="my-btn hero-section-btn" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">EXPLORE MORE <img class="img-fluid ml-15 mt-4" src="../../assets/images/icons/arr-right.png" alt="arrow" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-slider-item" style={{ backgroundImage: `url("/assets/images/banner/banner-4.jpg")` }}>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <p class="text-white slide-tophd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">FOSSIL <img src="../../assets/images/banner/slide-tophd.png" alt="slide-tophd" /></p>
+                                    <h1 class="text-white slide-head" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Earth's hidden extinctions</h1>
+                                    <p class="text-white mb-4 slide-subhd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">Fossil record during the mass extinction</p>
+                                    <a href="#" class="my-btn hero-section-btn" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">EXPLORE MORE <img class="img-fluid ml-15 mt-4" src="../../assets/images/icons/arr-right.png" alt="arrow" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* <div class="text-white play-btn-box">
+                        <a class="play-btn venobox" href="https://youtu.be/nA1Aqp0sPQo" data-vbtype="video">
+                            PLAY VIDEO
+                            <img class="img-fluid ml-15" src="../../assets/images/icons/play-btn.png" alt="play" />
+                        </a>
+                    </div> */}
+
+                {/* </div> */}
             </section>
             {/* <!-- /hero slider --> */}
 

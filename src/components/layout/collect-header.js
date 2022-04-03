@@ -51,7 +51,7 @@ const CollectHeader = () => {
             {/* <!-- navbar --> */}
             <div class="navigation w-100 collect-header">
                 <div class="container">
-                    <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                    <nav class="navbar navbar-expand-lg navbar-dark p-0 position-static">
                         <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
                             aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
