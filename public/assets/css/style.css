@@ -2817,9 +2817,11 @@ link:focus,
 .mission-section-btn, .works-section-btn, .benefits-section-btn, .hero-section-btn {
   display: flex;
   /* width: 207px; */
-  width: 190px;
+  /* width: 190px; */
+  width: 195px;
   padding: 15px 25px !important;
   margin-top: 15px;
+  justify-content: center;
 }
 
 .mission-section-btn img, .works-section-btn img .benefits-section-btn img {
