@@ -182,6 +182,10 @@ h6, .h6 {
   transition: 0.5s;
 }
 
+.text-black {
+  color: #030202 !important;
+}
+
 .my-btn:hover {
   background: linear-gradient(263.09deg, #895B00 2.75%, #AD7B00 23.79%, #C28600 45.83%, #E3B100 61.86%, #9B7100 77.39%, #8A5800 94.42%);
 }
@@ -1853,6 +1857,161 @@ link:focus,
   background-image: url("../images/icons/menu/experiences/metaverse.png");
 }
 
+/* filter section */
+.filter-section {
+  margin-bottom: 50px;
+}
+.filter-tab-box {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.filter-tab {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  width: 326px;
+  height: 99px;
+  padding: 0px 25px;
+  border-right: 1px solid #E8E8E8;
+  border-top: solid 2px #FFFFFF;
+  transition: 0.5s;
+}
+.filter-tab:last-child {
+  border-right: 0;
+}
+.filter-tab:hover {
+  border-top: solid 2px #DE9D0D;
+  box-shadow: 5px 5px 12px 0px #e8e8e8cc;
+}
+.filter-tab:hover .filter-success {
+  border: solid 1px #197e004d;
+}
+.filter-tab:hover .filter-danger {
+  border: solid 1px #d018184d;
+}
+.filter-tab p {
+  margin: 0px;
+}
+.filter-tab div {
+  flex-direction: column;
+}
+.filter-tab .label-box {
+  flex: none;
+}
+.filter-tab .hd {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #8a8896fc;
+  margin-bottom: 5px;
+}
+.filter-tab .subhd {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #322e47fc;
+}
+
+.filter-success {
+  width: 73px;
+  height: 32px;
+  background: #EAF5E5;
+  border-radius: 29px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: right;  
+  color: #197e00fc;
+  text-align: center;
+  padding: 3px 0px 5px 0px;
+  border: solid 1px #FFEAEA;
+  transition: 0.5s;
+}
+.filter-danger {
+  width: 73px;
+  height: 32px;
+  background: #FFEAEA;
+  border-radius: 29px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: right;
+  color: #d01818fc;
+  text-align: center;
+  padding: 3px 0px 5px 0px;
+  border: solid 1px #FFEAEA;
+  transition: 0.5s;
+}
+
+/* Fossils Product */
+.product-box {
+  display: flex;
+}
+.product-name {
+  flex: 4 1 0%;
+  flex-direction: column;
+}
+.product-box .price-label-box .card-label {
+  width: 97px !important;
+  height: 40px !important;
+  font-size: 22px !important;
+  line-height: 23px !important;
+  font-weight: 500 !important;
+  padding: 8px 6px 6px 6px !important;
+  margin-top: 10px;
+}
+.product-cart-box li {
+  width: 50%;
+}
+.product-cart-box .cart-box1 {
+  padding-right: 5px;
+}
+.product-cart-box .cart-box2 {
+  padding-left: 5px;
+}
+.product-cart-box li .cart-btn {
+  width: 100% !important;
+  height: 50px !important;
+  padding: 10px !important;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+}
+.product-cart-box li .my-btn {
+  border: none;
+}
+
+.current-cart-section .grid-item {
+  height: 600px !important;
+}
+
+.current-cart-section .grid-item-content {
+  height: 600px !important;
+}
+.current-cart-section .card {
+  height: 600px !important;
+}
+.current-cart-section .current-overlay {
+  height: 600px !important;
+}
+.current-cart-section .card .card-body {
+  height: 600px !important;
+}
+.current-cart-section .grid-item.is-expanded .current-list {
+  margin-bottom: 20px;
+}
+.current-cart-section .grid-item.is-expanded, .current-cart-section .grid-item.is-expanded .grid-item-content {
+  height: 870px !important;
+}
+.current-cart-section .grid-item.is-expanded .card, .current-cart-section .grid-item.is-expanded .card-body, .current-cart-section .grid-item.is-expanded .current-overlay {
+  height: 870px !important;
+}
+
 
 
 .navbar .main-nav .dropdown-menu .dropdown-item:hover .grey-gold {
@@ -2501,7 +2660,7 @@ link:focus,
   font-size: 14px;
   line-height: 23px;
   color: #FFFFFF;
-  width: 100px;
+  width: 87px;
   height: 36px;
   text-align: center;
   padding: 6px;
@@ -2646,20 +2805,56 @@ link:focus,
 .wishlist-alert {
   width: 100%;
   height: 0px;
-  background: #FCBC1E;
-  padding: 0px 25px;
+  /* background: #FCBC1E; */
+  /* padding: 0px 25px; */
   position: absolute;
   left: 0px;
-  margin-top: 30px;
+  margin-top: 15px;
   z-index: 100;
   overflow: hidden;
   transition: 0.5s;
 }
 
+
+
+.wishlist-inner {
+  position: relative;
+  background: #FCBC1E;
+  padding: 15px;
+  border: 1px solid #FCBC1E;
+  margin-top: 20px;
+}
+
+.wishlist-inner:before,
+.wishlist-inner:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: calc(50% - 5px);
+  border: 11px solid transparent;
+  border-bottom-color: #FCBC1E;
+}
+
+.wishlist-inner:after {
+  left: calc(50% - 5px);
+  border: 10px solid transparent;
+  border-bottom-color: #FCBC1E;
+}
+
+
+
+
+
+
+
 .itsdone-parent .wishlist-alert {
-  height: 83px;
-  padding: 25px;
+  /* height: 83px; */
+  height: 103px;
+  /* padding: 25px; */
   transition: 0.5s;
+}
+.itsdone-parent .wishlist-inner {
+  padding: 25px;
 }
 
 .wishlist-alert ul {
@@ -3336,6 +3531,10 @@ link:focus,
   top: -36px;
   left: 0;
   height: 1000px;
+}
+
+.card-img, .card-img-top {
+  overflow: hidden;
 }
 
 .eagle-img {
