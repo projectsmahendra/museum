@@ -188,7 +188,7 @@ const CollectHeader = () => {
                                                     <div class="col-md-4">
                                                         <a class="dropdown-item" href="all-artifacts"><div class="mr-10 grey-gold comming-artifacts"></div> ALL</a>
                                                         <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/dinosaurs.png" alt="icon" /></div> DINOSAURS</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/fossils.png" alt="icon" /></div> FOSSILS</a>
+                                                        <a class="dropdown-item" href="/fossils"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/fossils.png" alt="icon" /></div> FOSSILS</a>
                                                         <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/birds.png" alt="icon" /></div> BIRDS, MAMMALS, REPTILES</a>
                                                         <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/masks.png" alt="icon" /></div> MASKS</a>
                                                     </div>

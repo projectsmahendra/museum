@@ -74,15 +74,17 @@ const Art = () => {
                                                 </ul>
                                             </div>
                                             <div class="wishlist-alert">
-                                                <ul class="list-inline">
-                                                    <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
-                                                    <li class="list-inline-item alert-title">
-                                                        <div class="add-wish">Added to your wishlist</div>
-                                                        <div class="rmv-wish">Removed from your wishlist</div>
-                                                    </li>
-                                                    <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
-                                                    <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
-                                                </ul>
+                                                <div class="wishlist-inner">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
+                                                        <li class="list-inline-item alert-title">
+                                                            <div class="add-wish">Added to your wishlist</div>
+                                                            <div class="rmv-wish">Removed from your wishlist</div>
+                                                        </li>
+                                                        <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
+                                                        <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                             <div class="current-list">
                                                 <table class="table">
@@ -156,15 +158,17 @@ const Art = () => {
                                                 </ul>
                                             </div>
                                             <div class="wishlist-alert">
-                                                <ul class="list-inline">
-                                                    <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
-                                                    <li class="list-inline-item alert-title">
-                                                        <div class="add-wish">Added to your wishlist</div>
-                                                        <div class="rmv-wish">Removed from your wishlist</div>
-                                                    </li>
-                                                    <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
-                                                    <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
-                                                </ul>
+                                                <div class="wishlist-inner">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
+                                                        <li class="list-inline-item alert-title">
+                                                            <div class="add-wish">Added to your wishlist</div>
+                                                            <div class="rmv-wish">Removed from your wishlist</div>
+                                                        </li>
+                                                        <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
+                                                        <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                             <div class="current-list">
                                                 <table class="table">
@@ -238,15 +242,17 @@ const Art = () => {
                                                 </ul>
                                             </div>
                                             <div class="wishlist-alert">
-                                                <ul class="list-inline">
-                                                    <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
-                                                    <li class="list-inline-item alert-title">
-                                                        <div class="add-wish">Added to your wishlist</div>
-                                                        <div class="rmv-wish">Removed from your wishlist</div>
-                                                    </li>
-                                                    <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
-                                                    <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
-                                                </ul>
+                                                <div class="wishlist-inner">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
+                                                        <li class="list-inline-item alert-title">
+                                                            <div class="add-wish">Added to your wishlist</div>
+                                                            <div class="rmv-wish">Removed from your wishlist</div>
+                                                        </li>
+                                                        <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
+                                                        <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                             <div class="current-list">
                                                 <table class="table">
@@ -320,15 +326,17 @@ const Art = () => {
                                                 </ul>
                                             </div>
                                             <div class="wishlist-alert">
-                                                <ul class="list-inline">
-                                                    <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
-                                                    <li class="list-inline-item alert-title">
-                                                        <div class="add-wish">Added to your wishlist</div>
-                                                        <div class="rmv-wish">Removed from your wishlist</div>
-                                                    </li>
-                                                    <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
-                                                    <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
-                                                </ul>
+                                                <div class="wishlist-inner">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
+                                                        <li class="list-inline-item alert-title">
+                                                            <div class="add-wish">Added to your wishlist</div>
+                                                            <div class="rmv-wish">Removed from your wishlist</div>
+                                                        </li>
+                                                        <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
+                                                        <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                             <div class="current-list">
                                                 <table class="table">
