@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-const Collect = () => {
+const Upcoming = () => {
     useEffect(() => {
 
     });
@@ -12,9 +12,9 @@ const Collect = () => {
                     <ul>
                         <li class="bread-parent">COLLECT</li>
                         <li class="bread-seperator"> <img class="img-fluid" src="../../assets/images/icons/breadcrumb-arrow.png" alt="breadcrumb" /> </li>
-                        <li class="bread-parent">AUCTIONS</li>
+                        <li class="bread-parent">ARTIFACTS</li>
                         <li class="bread-seperator"> <img class="img-fluid" src="../../assets/images/icons/breadcrumb-arrow.png" alt="breadcrumb" /> </li>
-                        <li class="bread-child">CURRENT AUCTIONS</li>
+                        <li class="bread-child">FOSSILS</li>
                     </ul>
                 </div>
             </section>
@@ -24,24 +24,72 @@ const Collect = () => {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8">
-                            <h1 class="page-title list-inline-item">Current Auctions</h1>
-                            <p class="page-details">Lorem consectetur adipilorum ipsumdolar sitamis</p>
+                            <h1 class="page-title list-inline-item">Fossils</h1>
+                            <p class="page-details">Earth's hidden extinctions</p>
                         </div>
-                        <div class="col-md-4 searchbox">
+                        {/* <div class="col-md-4 searchbox">
                             <form class="d-flex">
                                 <img class="img-fluid collect-search-icon" src="../../assets/images/icons/search.png" alt="search" />
                                 <input class="form-control me-2 collect-search ml-auto" type="search" placeholder="Search Here" aria-label="Search" />
                                 <button class="search-btn-outline ml-auto" type="submit"><img class="img-fluid" src="../../assets/images/icons/search-btn.png" alt="search" /></button>
                             </form>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
             {/* <!-- /page title --> */}
 
+            {/* <!-- Filter --> */}
+            <section class="filter-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="filter-tab-box">
+                                <li className='filter-tab mx-0'>
+                                    <div className='left-side'>
+                                        <p className='hd'>Tier-1</p>
+                                        <p className='subhd'>#1 !!</p>
+                                    </div>
+                                    <div className='right-side label-box'>
+                                        <label className='filter-danger'>Sold!</label>
+                                    </div>
+                                </li>
+                                <li className='filter-tab mx-0'>
+                                    <div className='left-side'>
+                                        <p className='hd'>Tier-2</p>
+                                        <p className='subhd'>Very Rare</p>
+                                    </div>
+                                    <div className='right-side label-box'>
+                                        <label className='filter-success'># 78</label>
+                                    </div>
+                                </li>
+                                <li className='filter-tab mx-0'>
+                                    <div className='left-side'>
+                                        <p className='hd'>Tier-3</p>
+                                        <p className='subhd'>Rare</p>
+                                    </div>
+                                    <div className='right-side label-box'>
+                                        <label className='filter-success'># 439</label>
+                                    </div>
+                                </li>
+                                <li className='filter-tab mx-0'>
+                                    <div className='left-side'>
+                                        <p className='hd'>Tier-4</p>
+                                        <p className='subhd'>Collectible</p>
+                                    </div>
+                                    <div className='right-side label-box'>
+                                        <label className='filter-success'>#  1,876</label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* <!-- /Filter --> */}
 
             {/* <!-- Current Auctions --> */}
-            <section class="current-section section">
+            <section class="current-section current-cart-section section">
                 <div class="container">
 
                     <div class="grid">
@@ -55,8 +103,15 @@ const Collect = () => {
                                         </div>
                                         <div class="current-bottom">
                                             <div class="card-label">FOSSIL</div>
-                                            <h3 class="current-title">Earth's hidden extinctions</h3>
-                                            <p class="current-subtitle">Fossil record during the mass extinction</p>
+                                            <div className='product-box'>
+                                                <div className='left-side product-name'>
+                                                    <h3 class="current-title">Earth's hidden extinctions</h3>
+                                                    <p class="current-subtitle">Fossil record during the mass extinction</p>
+                                                </div>
+                                                <div className='right-side price-label-box'>
+                                                    <label className='card-label'>$ 1000</label>
+                                                </div>
+                                            </div>
                                             <div class="current-box">
                                                 <ul class="cbul left-side">
                                                     <li class="cbul-thumb">
@@ -73,19 +128,17 @@ const Collect = () => {
                                                     <li class="list-inline-item curr-list-box"><div class="curr-list"></div></li>
                                                 </ul>
                                             </div>
-                                            <div class="wishlist-alert">
-                                                <div class="wishlist-inner">
-                                                    <ul class="list-inline">
-                                                        <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
-                                                        <li class="list-inline-item alert-title">
-                                                            <div class="add-wish">Added to your wishlist</div>
-                                                            <div class="rmv-wish">Removed from your wishlist</div>
-                                                        </li>
-                                                        <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
-                                                        <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                            {/* <div class="wishlist-alert">
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
+                                                    <li class="list-inline-item alert-title">
+                                                        <div class="add-wish">Added to your wishlist</div>
+                                                        <div class="rmv-wish">Removed from your wishlist</div>
+                                                    </li>
+                                                    <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
+                                                    <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
+                                                </ul>
+                                            </div> */}
                                             <div class="current-list">
                                                 <table class="table">
                                                     <thead>
@@ -123,6 +176,27 @@ const Collect = () => {
                                                         </tr>
                                                     </tbody>
                                                 </table>
+                                            </div>
+                                            <ul className='list-inline d-inline product-cart-box'>
+                                                <li className='list-inline-item mx-0 cart-box1'>
+                                                    <button type="button" class="my-btn-outline text-white cart-btn btn-lg btn-block"><img class="img-fluid" src="../../assets/images/icons/cart.png" alt="arrow" /> Add to cart</button>
+                                                </li>
+                                                <li className='list-inline-item mx-0 cart-box2'>
+                                                    <button type="button" class="my-btn text-black cart-btn btn-lg btn-block">Get Ownership</button>
+                                                </li>
+                                            </ul>
+                                            <div class="wishlist-alert">
+                                                <div class="wishlist-inner">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
+                                                        <li class="list-inline-item alert-title">
+                                                            <div class="add-wish">Added to your wishlist</div>
+                                                            <div class="rmv-wish">Removed from your wishlist</div>
+                                                        </li>
+                                                        <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
+                                                        <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -139,8 +213,15 @@ const Collect = () => {
                                         </div>
                                         <div class="current-bottom">
                                             <div class="card-label">FOSSIL</div>
-                                            <h3 class="current-title">Earth's hidden extinctions</h3>
-                                            <p class="current-subtitle">Fossil record during the mass extinction</p>
+                                            <div className='product-box'>
+                                                <div className='left-side product-name'>
+                                                    <h3 class="current-title">Earth's hidden extinctions</h3>
+                                                    <p class="current-subtitle">Fossil record during the mass extinction</p>
+                                                </div>
+                                                <div className='right-side price-label-box'>
+                                                    <label className='card-label'>$ 1000</label>
+                                                </div>
+                                            </div>
                                             <div class="current-box">
                                                 <ul class="cbul left-side">
                                                     <li class="cbul-thumb">
@@ -157,19 +238,17 @@ const Collect = () => {
                                                     <li class="list-inline-item curr-list-box"><div class="curr-list"></div></li>
                                                 </ul>
                                             </div>
-                                            <div class="wishlist-alert">
-                                                <div class="wishlist-inner">
-                                                    <ul class="list-inline">
-                                                        <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
-                                                        <li class="list-inline-item alert-title">
-                                                            <div class="add-wish">Added to your wishlist</div>
-                                                            <div class="rmv-wish">Removed from your wishlist</div>
-                                                        </li>
-                                                        <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
-                                                        <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                            {/* <div class="wishlist-alert">
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
+                                                    <li class="list-inline-item alert-title">
+                                                        <div class="add-wish">Added to your wishlist</div>
+                                                        <div class="rmv-wish">Removed from your wishlist</div>
+                                                    </li>
+                                                    <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
+                                                    <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
+                                                </ul>
+                                            </div> */}
                                             <div class="current-list">
                                                 <table class="table">
                                                     <thead>
@@ -207,6 +286,27 @@ const Collect = () => {
                                                         </tr>
                                                     </tbody>
                                                 </table>
+                                            </div>
+                                            <ul className='list-inline d-inline product-cart-box'>
+                                                <li className='list-inline-item mx-0 cart-box1'>
+                                                    <button type="button" class="my-btn-outline text-white cart-btn btn-lg btn-block"><img class="img-fluid" src="../../assets/images/icons/cart.png" alt="arrow" /> Add to cart</button>
+                                                </li>
+                                                <li className='list-inline-item mx-0 cart-box2'>
+                                                    <button type="button" class="my-btn text-black cart-btn btn-lg btn-block">Get Ownership</button>
+                                                </li>
+                                            </ul>
+                                            <div class="wishlist-alert">
+                                                <div class="wishlist-inner">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
+                                                        <li class="list-inline-item alert-title">
+                                                            <div class="add-wish">Added to your wishlist</div>
+                                                            <div class="rmv-wish">Removed from your wishlist</div>
+                                                        </li>
+                                                        <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
+                                                        <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -223,8 +323,15 @@ const Collect = () => {
                                         </div>
                                         <div class="current-bottom">
                                             <div class="card-label">FOSSIL</div>
-                                            <h3 class="current-title">Earth's hidden extinctions</h3>
-                                            <p class="current-subtitle">Fossil record during the mass extinction</p>
+                                            <div className='product-box'>
+                                                <div className='left-side product-name'>
+                                                    <h3 class="current-title">Earth's hidden extinctions</h3>
+                                                    <p class="current-subtitle">Fossil record during the mass extinction</p>
+                                                </div>
+                                                <div className='right-side price-label-box'>
+                                                    <label className='card-label'>$ 1000</label>
+                                                </div>
+                                            </div>
                                             <div class="current-box">
                                                 <ul class="cbul left-side">
                                                     <li class="cbul-thumb">
@@ -241,19 +348,17 @@ const Collect = () => {
                                                     <li class="list-inline-item curr-list-box"><div class="curr-list"></div></li>
                                                 </ul>
                                             </div>
-                                            <div class="wishlist-alert">
-                                                <div class="wishlist-inner">
-                                                    <ul class="list-inline">
-                                                        <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
-                                                        <li class="list-inline-item alert-title">
-                                                            <div class="add-wish">Added to your wishlist</div>
-                                                            <div class="rmv-wish">Removed from your wishlist</div>
-                                                        </li>
-                                                        <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
-                                                        <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                            {/* <div class="wishlist-alert">
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
+                                                    <li class="list-inline-item alert-title">
+                                                        <div class="add-wish">Added to your wishlist</div>
+                                                        <div class="rmv-wish">Removed from your wishlist</div>
+                                                    </li>
+                                                    <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
+                                                    <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
+                                                </ul>
+                                            </div> */}
                                             <div class="current-list">
                                                 <table class="table">
                                                     <thead>
@@ -291,6 +396,27 @@ const Collect = () => {
                                                         </tr>
                                                     </tbody>
                                                 </table>
+                                            </div>
+                                            <ul className='list-inline d-inline product-cart-box'>
+                                                <li className='list-inline-item mx-0 cart-box1'>
+                                                    <button type="button" class="my-btn-outline text-white cart-btn btn-lg btn-block"><img class="img-fluid" src="../../assets/images/icons/cart.png" alt="arrow" /> Add to cart</button>
+                                                </li>
+                                                <li className='list-inline-item mx-0 cart-box2'>
+                                                    <button type="button" class="my-btn text-black cart-btn btn-lg btn-block">Get Ownership</button>
+                                                </li>
+                                            </ul>
+                                            <div class="wishlist-alert">
+                                                <div class="wishlist-inner">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
+                                                        <li class="list-inline-item alert-title">
+                                                            <div class="add-wish">Added to your wishlist</div>
+                                                            <div class="rmv-wish">Removed from your wishlist</div>
+                                                        </li>
+                                                        <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
+                                                        <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -307,8 +433,15 @@ const Collect = () => {
                                         </div>
                                         <div class="current-bottom">
                                             <div class="card-label">FOSSIL</div>
-                                            <h3 class="current-title">Earth's hidden extinctions</h3>
-                                            <p class="current-subtitle">Fossil record during the mass extinction</p>
+                                            <div className='product-box'>
+                                                <div className='left-side product-name'>
+                                                    <h3 class="current-title">Earth's hidden extinctions</h3>
+                                                    <p class="current-subtitle">Fossil record during the mass extinction</p>
+                                                </div>
+                                                <div className='right-side price-label-box'>
+                                                    <label className='card-label'>$ 1000</label>
+                                                </div>
+                                            </div>
                                             <div class="current-box">
                                                 <ul class="cbul left-side">
                                                     <li class="cbul-thumb">
@@ -325,19 +458,17 @@ const Collect = () => {
                                                     <li class="list-inline-item curr-list-box"><div class="curr-list"></div></li>
                                                 </ul>
                                             </div>
-                                            <div class="wishlist-alert">
-                                                <div class="wishlist-inner">
-                                                    <ul class="list-inline">
-                                                        <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
-                                                        <li class="list-inline-item alert-title">
-                                                            <div class="add-wish">Added to your wishlist</div>
-                                                            <div class="rmv-wish">Removed from your wishlist</div>
-                                                        </li>
-                                                        <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
-                                                        <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
+                                            {/* <div class="wishlist-alert">
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
+                                                    <li class="list-inline-item alert-title">
+                                                        <div class="add-wish">Added to your wishlist</div>
+                                                        <div class="rmv-wish">Removed from your wishlist</div>
+                                                    </li>
+                                                    <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
+                                                    <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
+                                                </ul>
+                                            </div> */}
                                             <div class="current-list">
                                                 <table class="table">
                                                     <thead>
@@ -375,6 +506,27 @@ const Collect = () => {
                                                         </tr>
                                                     </tbody>
                                                 </table>
+                                            </div>
+                                            <ul className='list-inline d-inline product-cart-box'>
+                                                <li className='list-inline-item mx-0 cart-box1'>
+                                                    <button type="button" class="my-btn-outline text-white cart-btn btn-lg btn-block"><img class="img-fluid" src="../../assets/images/icons/cart.png" alt="arrow" /> Add to cart</button>
+                                                </li>
+                                                <li className='list-inline-item mx-0 cart-box2'>
+                                                    <button type="button" class="my-btn text-black cart-btn btn-lg btn-block">Get Ownership</button>
+                                                </li>
+                                            </ul>
+                                            <div class="wishlist-alert">
+                                                <div class="wishlist-inner">
+                                                    <ul class="list-inline">
+                                                        <li class="list-inline-item"><img class="tick" src="../../assets/images/icons/tick.png" alt="icon" /></li>
+                                                        <li class="list-inline-item alert-title">
+                                                            <div class="add-wish">Added to your wishlist</div>
+                                                            <div class="rmv-wish">Removed from your wishlist</div>
+                                                        </li>
+                                                        <li class="list-inline-item"><a href="#">MY WISHIST</a></li>
+                                                        <li class="list-inline-item ml-auto"><img class="alert-close" src="../../assets/images/icons/close-alert.png" alt="icon" /></li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -408,4 +560,4 @@ const Collect = () => {
         </>
     );
 };
-export default Collect;
+export default Upcoming;
