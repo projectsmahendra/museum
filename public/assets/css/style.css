@@ -1477,7 +1477,28 @@ textarea.form-control {
     flex-direction: row;
     justify-content: flex-start !important;
   }
-
+  /* Fossil */
+  .filter-tab-box {
+    display: block !important;
+  }
+  .filter-tab {
+    width: 100% !important;
+    border-bottom: 1px solid #E8E8E8;
+    border-right: 0px !important;
+  }
+  .filter-tab:last-child {
+    border-bottom: 0px !important;
+  }
+  .filter-tab:hover {
+    box-shadow: none !important;
+  }
+  .current-cart-section .card-body .current-bottom {
+    padding-top: 150px !important;
+  }
+  .product-cart-box li .cart-btn {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
 
 
 
@@ -1493,6 +1514,9 @@ textarea.form-control {
   }
   .bg-footer {
     padding-top: 90px !important;
+  }
+  .foot-links li a {
+    justify-content: center;
   }
 
 
@@ -1874,7 +1898,7 @@ link:focus,
   width: 25%;
   display: flex;
   align-items: center;
-  width: 326px;
+  /* width: 326px; */
   height: 99px;
   padding: 0px 25px;
   border-right: 1px solid #E8E8E8;
