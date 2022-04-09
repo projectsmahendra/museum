@@ -230,9 +230,7 @@ const Home = () => {
             <section class="section mission-section parallax-window" data-parallax="scroll" data-image-src="../../assets/images/backgrounds/works-bg.jpg">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 col-sm-4 position-relative success-video">
-                            {/* <!-- <img class="museum-img img-fluid mb-4" src="../../assets/images/backgrounds/museum.png" alt="museum"> --> */}
-                        </div>
+                        <div class="col-lg-6 col-sm-4 position-relative success-video hidden-mobile"></div>
                         <div class="col-lg-6 col-sm-8">
                             <div class="works-box">
                                 <img class="img-fluid mb-4 head-line ml-auto" src="../../assets/images/icons/head-line.png" alt="head-line" />
@@ -241,6 +239,7 @@ const Home = () => {
                                 <a href="#" class="my-btn works-section-btn ml-auto">EXPLORE MORE <img class="img-fluid ml-15 mt-4" src="../../assets/images/icons/arr-right.png" alt="arrow" /></a>
                             </div>
                         </div>
+                        <div class="col-lg-6 col-sm-4 position-relative success-video hidden-laptop"></div>
                     </div>
                 </div>
             </section>

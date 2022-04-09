@@ -117,48 +117,63 @@ const VirtualExhibits = () => {
                 </div>
             </section>
 
+
             {/* <!-- Searchbar --> */}
             <section class="search-filter-section section">
                 <div class="container">
-                    <h2 class="searth-title">Search Virtual Exhibits</h2>
+                    <h2 class="searth-title">Search Museums</h2>
+
                     <div class="searchbar">
                         <form name="form1" id="form1" action="/action_page.php">
+
                             <div class="filter-box">
-                                <span>Search By City:</span>
-                                <div class="select">
-                                    <select name="subject" id="subject">
-                                        <option value="" selected="selected">Select City</option>
+                                <div class="form-floating select">
+                                    <select class="form-select" id="city" aria-label="Floating label select example">
+                                        <option selected>Toronto</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
                                     </select>
+                                    <label for="city">Search By City</label>
                                 </div>
                             </div>
+
                             <div class="filter-box">
-                                <span>State:</span>
-                                <div class="select">
-                                    <select name="topic" id="topic">
-                                        <option value="" selected="selected">Select City first</option>
+                                <div class="form-floating select">
+                                    <select class="form-select" id="state" aria-label="Floating label select example">
+                                        <option selected>Ontario</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
                                     </select>
+                                    <label for="state">State</label>
                                 </div>
                             </div>
+
                             <div class="filter-box">
-                                <span>Country:</span>
-                                <div class="select">
-                                    <select name="chapter" id="chapter">
-                                        <option value="" selected="selected">Select State first</option>
+                                <div class="form-floating select">
+                                    <select class="form-select" id="country" aria-label="Floating label select example">
+                                        <option selected>Canada</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
                                     </select>
+                                    <label for="country">Country</label>
                                 </div>
                             </div>
+
                             <div class="filter-box">
-                                <span>Categoty:</span>
-                                <div class="select">
-                                    <select name="chapter" id="chapter">
-                                        <option value="" selected="selected">Select Categoty</option>
-                                        <option value="">All, Antique...+1 </option>
-                                        <option value="">All, Antique...+2 </option>
-                                        <option value="">All, Antique...+3 </option>
-                                        <option value="">All, Antique...+4 </option>
+                                <div class="form-floating select">
+                                    <select class="form-select" id="categoty" aria-label="Floating label select example">
+                                        <option selected>All, Antique...+3</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
                                     </select>
+                                    <label for="categoty">Categoty</label>
                                 </div>
                             </div>
+
                             <div class="filter-box">
                                 <input type="submit" class="btn my-btn" value="SEARCH" />
                             </div>
@@ -182,6 +197,7 @@ const VirtualExhibits = () => {
                                             <div class="save-btn">
                                                 <a href="#" class="my-btn">SAVE</a>
                                             </div>
+                                            <div className='clrbth'></div>
                                             <img class="img-fluid mb-4 head-line ml-auto" src="../../assets/images/icons/head-line.png" alt="head-line" />
                                             <h2>Grand Opening</h2>
                                             <p>15th Feb 2022</p>
