@@ -153,7 +153,8 @@
 		});
 
 		$(".alert-close").click(function () {
-			$(".current-bottom").removeClass("itsdone-parent");
+			// $(".current-bottom").removeClass("itsdone-parent");
+			$(this).parent().parent().parent().parent().parent().removeClass("itsdone-parent");
 		});
 
 		// wishlist tooltip

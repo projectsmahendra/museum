@@ -19,7 +19,7 @@ import Artifacts from './components/collect/comingsoon/artifacts';
 import AllMuseums from './components/collect/all-museums';
 import AllArts from './components/collect/all-arts';
 import AllArtifacts from './components/collect/all-artifacts';
-
+import Fossils from './components/collect/fossils';
 
 function App() {
   return (
@@ -59,6 +59,9 @@ function App() {
         </Route>
         <Route path="/all-artifacts" element={<CollectLayout />} >
           <Route index element={<AllArtifacts />} />
+        </Route>
+        <Route path="/fossils" element={<CollectLayout />} >
+          <Route index element={<Fossils />} />
         </Route>
 
       </Routes>
