@@ -61,8 +61,9 @@ const Footer = () => {
                             <div class="col-lg-3 col-md-3 col-sm-4 col-6 mb-5 mb-md-0 mob-center">
                                 <h4 class="foot-head text-white mb-3">Contact</h4>
                                 <ul class="foot-links foot-icons list-unstyled">
-                                    <li class="mb-3"><a class="text-dark" href="#"><i class="ti-facebook"></i></a></li>
-                                    <li class="mb-3"><a class="text-dark" href="#"><i class="ti-instagram"></i></a></li>
+                                    <li class="mb-3"><a class="text-dark" href="https://twitter.com/museums_org" target={'_blank'}><i class="ti-twitter"></i></a></li>
+                                    <li class="mb-3"><a class="text-dark" href="https://www.linkedin.com/in/museums-org/" target={'_blank'}><i class="ti-linkedin"></i></a></li>
+                                    <li class="mb-3"><a class="text-dark" href="https://www.instagram.com/museums_org" target={'_blank'}><i class="ti-instagram"></i></a></li>
                                 </ul>
                             </div>
                         </div>
