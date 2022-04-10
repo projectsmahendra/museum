@@ -166,7 +166,10 @@ const Home = () => {
                             <div class="abt-box">
                                 <img class="img-fluid mb-4 head-line ml-auto" src="../../assets/images/icons/head-line.png" alt="head-line" />
                                 <h2 class="mission-section-title text-dark">About our Mission</h2>
-                                <p class="mission-section-detail text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris amet, consectetur</p>
+                                <p class="mission-section-detail text-muted mb-4">Transforming the planet's most valuable art and artifacts into digital assets, Museums Org aspires to be
+                                    the most reliable and secure digital marketplace. We are a platform that aims to create a new creative
+                                    economy, one in which digital assets can use the Ethereum blockchain with a unique value in an entirely
+                                    new way.</p>
                                 <a href="#" class="my-btn mission-section-btn ml-auto">EXPLORE MORE <img class="img-fluid ml-15 mt-4" src="../../assets/images/icons/arr-right.png" alt="arrow" /></a>
                             </div>
                             <img class="museum-img-mob img-fluid hidden-laptop" src="../../assets/images/backgrounds/museum.png" alt="museum" />
@@ -199,7 +202,10 @@ const Home = () => {
                             <div class="benefits-box">
                                 <img class="img-fluid mb-4 head-line" src="../../assets/images/icons/head-line.png" alt="head-line" />
                                 <h2 class="benefits-section-title text-dark">Museum &  Patron benefits</h2>
-                                <p class="benefits-section-detail text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris amet, consectetur</p>
+                                <p class="benefits-section-detail text-muted mb-4">Museums Org encourages Museums and collectors to form a network of mutual support. We're charting a
+                                    community driven course and sharing our tools with a fast growing group of developers who are eager to
+                                    help us shape the future. We aim to include anybody and everyone who is interested in the future of
+                                    digital expression.</p>
                                 <a href="#" class="my-btn benefits-section-btn">EXPLORE MORE <img class="img-fluid ml-15 mt-4" src="../../assets/images/icons/arr-right.png" alt="arrow" /></a>
                             </div>
                         </div>
@@ -235,7 +241,9 @@ const Home = () => {
                             <div class="works-box">
                                 <img class="img-fluid mb-4 head-line ml-auto" src="../../assets/images/icons/head-line.png" alt="head-line" />
                                 <h2 class="works-section-title text-dark">How it works</h2>
-                                <p class="works-section-detail text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elitsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris amet, consectetur</p>
+                                <p class="works-section-detail text-muted mb-4">We are a marketplace with the exception that all of the things displayed are one of a kind digital treasures
+                                    in the form of NFTs that users may buy, sell, and mint. The platform is a decentralized, peer to peer
+                                    exchange that allows users to conduct direct, trustless transactions with one another.</p>
                                 <a href="#" class="my-btn works-section-btn ml-auto">EXPLORE MORE <img class="img-fluid ml-15 mt-4" src="../../assets/images/icons/arr-right.png" alt="arrow" /></a>
                             </div>
                         </div>
