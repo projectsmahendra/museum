@@ -164,7 +164,8 @@ const AllArts = () => {
                     <div class="regular slider">
                         {topMuseums.map((museums, id) => (
                             <div class="car-item" key={id}>
-                                <img src="../../assets/images/museums/1.png" class="img-fluid" alt="museums" />
+                                {/* <img src="../../assets/images/museums/1.png" class="img-fluid" alt="museums" /> */}
+                                <img src={`../../assets/images/museums/${id}.png`} class="img-fluid" alt="museums" />
                                 <div class="card-body">
                                     <ul class="cbul">
                                         <li class="cbul-thumb">
@@ -191,7 +192,7 @@ const AllArts = () => {
                     <div class="grid">
                         <div class="grid-item">
                             <div class="grid-item-content">
-                                <div class="card p-0 hover-shadow">
+                                <div class="card p-0 hover-shadow" style={{ backgroundImage: `url("/assets/images/museums/matthieu-joannon-wRtN8AgpvLg-unsplash.jpg")` }}>
                                     <div class="current-overlay"></div>
                                     <div class="card-body">
                                         <div class="right-side">
@@ -275,7 +276,7 @@ const AllArts = () => {
                         </div>
                         <div class="grid-item">
                             <div class="grid-item-content">
-                                <div class="card p-0 hover-shadow">
+                                <div class="card p-0 hover-shadow" style={{ backgroundImage: `url("/assets/images/museums/museum-2021-08-30-11-11-45-utc.jpg")` }}>
                                     <div class="current-overlay"></div>
                                     <div class="card-body">
                                         <div class="right-side">
@@ -359,7 +360,7 @@ const AllArts = () => {
                         </div>
                         <div class="grid-item">
                             <div class="grid-item-content">
-                                <div class="card p-0 hover-shadow">
+                                <div class="card p-0 hover-shadow" style={{ backgroundImage: `url("/assets/images/museums/mosaic-inside-haghia-sophia-mosque-istanbul-2022-02-08-02-49-23-utc.jpg")` }}>
                                     <div class="current-overlay"></div>
                                     <div class="card-body">
                                         <div class="right-side">
@@ -443,7 +444,7 @@ const AllArts = () => {
                         </div>
                         <div class="grid-item">
                             <div class="grid-item-content">
-                                <div class="card p-0 hover-shadow">
+                                <div class="card p-0 hover-shadow" style={{ backgroundImage: `url("/assets/images/museums/ricardo-rocha-LZVIdRWyAMk-unsplash.jpg")` }}>
                                     <div class="current-overlay"></div>
                                     <div class="card-body">
                                         <div class="right-side">

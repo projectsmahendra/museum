@@ -15,28 +15,28 @@ const Openings = () => {
             {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "interior-bullfighting-museum-real-maestranza-de-caballeria",
             },
             {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "elizabeth-george-E_evIcvACS8-unsplash",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "cristina-gottardi-05P65mxLuW8-unsplash",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "arno-senoner-fekOj0LCFQY-unsplash",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "akshay-chauhan-42lgAdOoRso-unsplash",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "vr-in-art-museum-2021-09-24-04-06-24-utc",
             }
         ]
     };
@@ -89,7 +89,8 @@ const Openings = () => {
                     <div class="regular slider">
                         {topMuseums.map((museums, id) => (
                             <div class="car-item">
-                                <img src="../../assets/images/museums/1.png" class="img-fluid" alt="museums" />
+                                {/* <img src="../../assets/images/museums/1.png" class="img-fluid" alt="museums" /> */}
+                                <img src={`../../assets/images/museums/${id}.png`} class="img-fluid" alt="museums" />
                                 <div class="card-body">
                                     <ul class="cbul">
                                         <li class="cbul-thumb">
@@ -181,8 +182,9 @@ const Openings = () => {
                         {topMuseums.map((museums, id) => (
                             <div class="col-lg-6 col-sm-6 mb-3">
                                 <a class="text-color" href="#">
-                                    <div class="card p-0 hover-shadow">
-                                        <img class="card-img-top img-fluid" src="../../assets/images/openings/opening1.jpg" alt="openings" />
+                                    <div class="card p-0 hover-shadow" style={{ backgroundImage: `url("/assets/images/museums/${museums.imgtitle}.jpg")` }}>
+                                        <div class="current-overlay"></div>
+                                        {/* <img class="card-img-top img-fluid" src="../../assets/images/openings/opening1.jpg" alt="openings" /> */}
                                         <div class="card-body">
                                             <div class="save-btn ml-auto">
                                                 <a href="#" class="my-btn">SAVE</a>

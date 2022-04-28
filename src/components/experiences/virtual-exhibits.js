@@ -15,28 +15,28 @@ const VirtualExhibits = () => {
             {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "riyas-mohammed-A05bIhiry4o-unsplash",
             },
             {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "nicole-baster-F44zlwygw5M-unsplash",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "sebastiano-piazzi-UsLNEazeylo-unsplash",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "silvia-maidagan-yECFU0vIRgs-unsplash",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "vaticancity-vatican-may-09-2017-inside-vatican-museum-one-largest-museums-world-vatican-gallery-ancient-sculptures-italy",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "portrait-of-a-girl-at-the-museum-2021-10-02-17-27-56-utc",
             }
         ]
     };
@@ -98,7 +98,8 @@ const VirtualExhibits = () => {
                     <div class="regular slider">
                         {topMuseums.map((museums, id) => (
                             <div class="car-item">
-                                <img src="../../assets/images/museums/1.png" class="img-fluid" alt="museums" />
+                                {/* <img src="../../assets/images/museums/1.png" class="img-fluid" alt="museums" /> */}
+                                <img src={`../../assets/images/museums/${id}.png`} class="img-fluid" alt="museums" />
                                 <div class="card-body">
                                     <ul class="cbul">
                                         <li class="cbul-thumb">
@@ -191,8 +192,9 @@ const VirtualExhibits = () => {
                         {topMuseums.map((museums, id) => (
                             <div class="col-lg-6 col-sm-6 mb-3">
                                 <a class="text-color" href="#">
-                                    <div class="card p-0 hover-shadow">
-                                        <img class="card-img-top img-fluid" src="../../assets/images/openings/opening1.jpg" alt="openings" />
+                                    <div class="card p-0 hover-shadow" style={{ backgroundImage: `url("/assets/images/museums/${museums.imgtitle}.jpg")` }}>
+                                    <div class="current-overlay"></div>
+                                        {/* <img class="card-img-top img-fluid" src="../../assets/images/openings/opening1.jpg" alt="openings" /> */}
                                         <div class="card-body">
                                             <div class="save-btn">
                                                 <a href="#" class="my-btn">SAVE</a>

@@ -47,7 +47,7 @@ const Artifacts = () => {
                     <div class="grid">
                         <div class="grid-item">
                             <div class="grid-item-content">
-                                <div class="card p-0 hover-shadow">
+                                <div class="card p-0 hover-shadow" style={{ backgroundImage: `url("/assets/images/museums/egor-myznik-1zS9dvV1iAM-unsplash.jpg")` }}>
                                     <div class="current-overlay"></div>
                                     <div class="card-body">
                                         <div class="right-side">
@@ -131,7 +131,7 @@ const Artifacts = () => {
                         </div>
                         <div class="grid-item">
                             <div class="grid-item-content">
-                                <div class="card p-0 hover-shadow">
+                                <div class="card p-0 hover-shadow" style={{ backgroundImage: `url("/assets/images/museums/egor-myznik-5l-FNHVdGnI-unsplash.jpg")` }}>
                                     <div class="current-overlay"></div>
                                     <div class="card-body">
                                         <div class="right-side">
@@ -215,7 +215,7 @@ const Artifacts = () => {
                         </div>
                         <div class="grid-item">
                             <div class="grid-item-content">
-                                <div class="card p-0 hover-shadow">
+                                <div class="card p-0 hover-shadow" style={{ backgroundImage: `url("/assets/images/museums/egor-myznik-fizQrv8m96o-unsplash.jpg")` }}>
                                     <div class="current-overlay"></div>
                                     <div class="card-body">
                                         <div class="right-side">
@@ -299,7 +299,7 @@ const Artifacts = () => {
                         </div>
                         <div class="grid-item">
                             <div class="grid-item-content">
-                                <div class="card p-0 hover-shadow">
+                                <div class="card p-0 hover-shadow" style={{ backgroundImage: `url("/assets/images/museums/miltiadis-fragkidis-LTRB5CiM0Yo-unsplash.jpg")` }}>
                                     <div class="current-overlay"></div>
                                     <div class="card-body">
                                         <div class="right-side">

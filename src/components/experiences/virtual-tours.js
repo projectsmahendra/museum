@@ -15,28 +15,28 @@ const VirtualTours = () => {
             {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "mosaic-inside-haghia-sophia-mosque-istanbul-2022-02-08-05-47-42-utc",
             },
             {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "museum-2021-08-30-11-11-45-utc",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "hester-qiang-bSrqpoOz7Ec-unsplash (1)",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "carving-demons-faces-wall-background-covered-with-moss-texture-bali",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "david-jones-7RzxuptWNZg-unsplash",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "beirut-lebanon-march-2020-view-interior-national-museum-beirut",
             }
         ]
     };
@@ -98,7 +98,8 @@ const VirtualTours = () => {
                     <div class="regular slider">
                         {topMuseums.map((museums, id) => (
                             <div class="car-item">
-                                <img src="../../assets/images/museums/1.png" class="img-fluid" alt="museums" />
+                                {/* <img src="../../assets/images/museums/1.png" class="img-fluid" alt="museums" /> */}
+                                <img src={`../../assets/images/museums/${id}.png`} class="img-fluid" alt="museums" />
                                 <div class="card-body">
                                     <ul class="cbul">
                                         <li class="cbul-thumb">
@@ -192,8 +193,9 @@ const VirtualTours = () => {
                         {topMuseums.map((museums, id) => (
                             <div class="col-lg-6 col-sm-6 mb-3">
                                 <a class="text-color" href="#">
-                                    <div class="card p-0 hover-shadow">
-                                        <img class="card-img-top img-fluid" src="../../assets/images/openings/opening1.jpg" alt="openings" />
+                                    <div class="card p-0 hover-shadow" style={{ backgroundImage: `url("/assets/images/museums/${museums.imgtitle}.jpg")` }}>
+                                        <div class="current-overlay"></div>
+                                        {/* <img class="card-img-top img-fluid" src="../../assets/images/openings/opening1.jpg" alt="openings" /> */}
                                         <div class="card-body">
                                             <div class="save-btn">
                                                 <a href="#" class="my-btn">SAVE</a>

@@ -47,7 +47,7 @@ const Art = () => {
                     <div class="grid">
                         <div class="grid-item">
                             <div class="grid-item-content">
-                                <div class="card p-0 hover-shadow">
+                                <div class="card p-0 hover-shadow" style={{ backgroundImage: `url("/assets/images/museums/birmingham-museums-trust-p00MgXaa6as-unsplash.jpg")` }}>
                                     <div class="current-overlay"></div>
                                     <div class="card-body">
                                         <div class="right-side">
@@ -131,7 +131,7 @@ const Art = () => {
                         </div>
                         <div class="grid-item">
                             <div class="grid-item-content">
-                                <div class="card p-0 hover-shadow">
+                                <div class="card p-0 hover-shadow" style={{ backgroundImage: `url("/assets/images/museums/birmingham-museums-trust-rlj8fwCjsp8-unsplash.jpg")` }}>
                                     <div class="current-overlay"></div>
                                     <div class="card-body">
                                         <div class="right-side">
@@ -215,7 +215,7 @@ const Art = () => {
                         </div>
                         <div class="grid-item">
                             <div class="grid-item-content">
-                                <div class="card p-0 hover-shadow">
+                                <div class="card p-0 hover-shadow" style={{ backgroundImage: `url("/assets/images/museums/birmingham-museums-trust-5F3u0j6s6pM-unsplash.jpg")` }}>
                                     <div class="current-overlay"></div>
                                     <div class="card-body">
                                         <div class="right-side">
@@ -299,7 +299,7 @@ const Art = () => {
                         </div>
                         <div class="grid-item">
                             <div class="grid-item-content">
-                                <div class="card p-0 hover-shadow">
+                                <div class="card p-0 hover-shadow" style={{ backgroundImage: `url("/assets/images/museums/birmingham-museums-trust-qYM3UdDslbk-unsplash.jpg")` }}>
                                     <div class="current-overlay"></div>
                                     <div class="card-body">
                                         <div class="right-side">

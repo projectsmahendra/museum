@@ -17,22 +17,22 @@ const Museum = () => {
             {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "5",
             },
             {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "4",
             },
             {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "3",
             },
             {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "2",
             }
         ]
     };
@@ -42,52 +42,52 @@ const Museum = () => {
             {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "4",
             },
             {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "5",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "1",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "2",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "0",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "3",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "4",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "1",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "5",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "2",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "0",
             }, {
                 name: "Antique Museum",
                 location: "Toronto, Canada",
-
+                imgtitle: "4",
             },
         ]
     };
@@ -156,7 +156,8 @@ const Museum = () => {
                     <div class="regular slider">
                         {topMuseums.map((museums, id) => (
                             <div class="car-item" key={id}>
-                                <img src="../../assets/images/museums/1.png" class="img-fluid" alt="museums" />
+                                {/* <img src="../../assets/images/museums/{id}.png" class="img-fluid" alt="museums" /> */}
+                                <img src={`../../assets/images/museums/${id}.png`} class="img-fluid" alt="museums" />
                                 <div class="card-body">
                                     <ul class="cbul">
                                         <li class="cbul-thumb">
@@ -247,19 +248,21 @@ const Museum = () => {
                     <div class="row justify-content-center">
                         {/* <!-- item --> */}
                         {museums.map((museum, id) => (
+
                             <div class="col-lg-3 col-sm-6 mb-3" key={id}>
                                 <a class="text-color" href="#">
                                     <div class="card p-0 hover-shadow">
-                                        <img class="card-img-top img-fluid" src="../../assets/images/museums/4.png" alt="museums" />
+                                        {/* <img class="card-img-top img-fluid" src="../../assets/images/museums/4.png" alt="museums" /> */}
+                                        <img class="card-img-top img-fluid" src={`../../assets/images/museums/${museum.imgtitle}.png`} alt="museums" />
                                         <div class="card-body">
                                             <ul class="cbul">
                                                 <li class="cbul-thumb">
                                                     <img class="card-img-top img-fluid" src="../../assets/images/museums/thumb-1.png" alt="museums" />
                                                 </li>
                                                 <li class="cbul-dtl">
-                                                    <span class="card-head">Antique Museum</span>
+                                                    <span class="card-head">{museum.name}</span>
                                                     <br />
-                                                    <span class="card-subhead">Toronto, Canada</span>
+                                                    <span class="card-subhead">{museum.location}</span>
                                                 </li>
                                             </ul>
                                         </div>
@@ -300,11 +303,13 @@ const Museum = () => {
                     {/* <!-- Search Result --> */}
                     <div class="row justify-content-center">
                         {/* <!-- item --> */}
+                        
                         {recentMuseums.map((museums, id) => (
                             <div class="col-lg-3 col-sm-6 mb-3">
                                 <a class="text-color" href="#">
                                     <div class="card p-0 hover-shadow">
-                                        <img class="card-img-top img-fluid" src="../../assets/images/museums/4.png" alt="museums" />
+                                        {/* <img class="card-img-top img-fluid" src="../../assets/images/museums/4.png" alt="museums" /> */}
+                                        <img class="card-img-top img-fluid" src={`../../assets/images/museums/${museums.imgtitle}.png`} alt="museums" />
                                         <div class="card-body">
                                             <div class="card-label">SCULPTURE</div>
                                             <ul class="cbul">

@@ -78,7 +78,7 @@ const Home = () => {
                         </div>
                     </div>
                     {/* <!-- slider item --> */}
-                    <div class="hero-slider-item" style={{ backgroundImage: `url("/assets/images/banner/banner-2.jpg")` }}>
+                    <div class="hero-slider-item" style={{ backgroundImage: `url("/assets/images/museums/cristina-gottardi-GeKoZualPmA-unsplash.jpg")` }}>
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-8">
@@ -91,7 +91,20 @@ const Home = () => {
                         </div>
                     </div>
                     {/* <!-- slider item --> */}
-                    <div class="hero-slider-item" style={{ backgroundImage: `url("/assets/images/banner/banner-3.jpg")` }}>
+                    <div class="hero-slider-item" style={{ backgroundImage: `url("/assets/images/museums/andrea-contieri-MsfiDM9Onfg-unsplash.jpg")` }}>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <p class="text-white slide-tophd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">FOSSIL <img src="../../assets/images/banner/slide-tophd.png" alt="slide-tophd" /></p>
+                                    <h1 class="text-white slide-head" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Earth's hidden extinctions</h1>
+                                    <p class="text-white mb-4 slide-subhd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">Fossil record during the mass extinction</p>
+                                    <a href="#" class="my-btn hero-section-btn" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">EXPLORE MORE <img class="img-fluid ml-15 mt-4" src="../../assets/images/icons/arr-right.png" alt="arrow" /></a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    {/* <!-- slider item --> */}
+                    <div class="hero-slider-item" style={{ backgroundImage: `url("/assets/images/museums/francisco-ghisletti-Wf2tCunxqQU-unsplash.jpg")` }}>
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-8">
@@ -103,7 +116,8 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="hero-slider-item" style={{ backgroundImage: `url("/assets/images/banner/banner-4.jpg")` }}>
+                    {/* <!-- slider item --> */}
+                    <div class="hero-slider-item" style={{ backgroundImage: `url("/assets/images/museums/manoj-kumar-kasirajan-fAZEw6xPhz8-unsplash.jpg")` }}>
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-8">

@@ -114,6 +114,10 @@ h6, .h6 {
   }
 }
 
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #322E47 !important;
+}
+
 /* Button style */
 .btn {
   font-size: 16px;
@@ -2308,12 +2312,17 @@ link:focus,
   border: none;
   position: relative;
   border-radius: 8px;
+  height: 190px;
+  overflow: hidden;
 }
 
 /****************/
 
 .car-section .car-item {
   position: relative;
+  height: 198px;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .car-section .card-body {
@@ -2479,6 +2488,15 @@ link:focus,
   height: 500px;
   position: relative;
   border-radius: 16px;
+  background-size: cover;
+  background-position: center;
+}
+.opening-section .current-overlay {
+  height: 500px;
+  width: auto;
+  background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0.605247) 53.37%, rgba(0, 0, 0, 0) 93.11%);
+  border-radius: 0px 0px 16px 16px;
+  transition: 0.5s;
 }
 
 .opening-section .card .card-body {
@@ -2638,6 +2656,7 @@ link:focus,
   width: auto;
   background-image: url("../images/current-auctions/current1.jpg");
   background-size: cover;
+  background-position: center;
   border-radius: 16px;
   transition: 0.5s;
 }
@@ -2983,6 +3002,7 @@ link:focus,
 .current-section .grid {
   /* background: #EEE; */
   /* max-width: 1200px; */
+  transition: 0.5s;
 }
 
 .current-section .grid-item {
