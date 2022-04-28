@@ -12,7 +12,7 @@ const Footer = () => {
                     <div class="row">
                         <div class="col-12 text-center">
                             <h2 class="think-section-title text-white">Tell us what you think.</h2>
-                            <p class="think-section-detail text-white mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing amonsectetur aelit</p>
+                            {/* <p class="think-section-detail text-white mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing amonsectetur aelit</p> */}
                             <a href="#" class="my-btn-outline text-white">TALK TO US NOW <img class="img-fluid ml-15 mb-4" src="../../assets/images/icons/arr-right.png" alt="arrow" /></a>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ const Footer = () => {
                         <div class="row">
                             <div class="col-sm-7 text-sm-left">
                                 <p class="copy-head mb-1">Copyright © 2021 museum.org</p>
-                                <p class="copy-dtl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolorena aliqua. Ut enim ad minim veniam, quis nostrud exercit ation ullamco laboris amet, consectetur ad.</p>
+                                {/* <p class="copy-dtl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolorena aliqua. Ut enim ad minim veniam, quis nostrud exercit ation ullamco laboris amet, consectetur ad.</p> */}
                             </div>
                         </div>
                     </div>
