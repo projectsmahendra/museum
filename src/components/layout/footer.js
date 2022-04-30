@@ -33,28 +33,28 @@ const Footer = () => {
                                     <li class="mb-2"><a class="text-white" href="museum">Museums <div className='hvr-foot-links'></div></a></li>
                                     <li class="mb-2"><a class="text-white" href="openings">Openings <div className='hvr-foot-links'></div></a></li>
                                     <li class="mb-2"><a class="text-white" href="virtual-exhibits">Experiences <div className='hvr-foot-links'></div></a></li>
-                                    <li class="mb-2"><a class="text-white" href="#">Community <div className='hvr-foot-links'></div></a></li>
-                                    <li class="mb-2"><a class="text-white" href="#">Roadmap <div className='hvr-foot-links'></div></a></li>
+                                    <li class="mb-2"><a class="text-white" href="coming-soon">Community <div className='hvr-foot-links'></div></a></li>
+                                    <li class="mb-2"><a class="text-white" href="coming-soon">Roadmap <div className='hvr-foot-links'></div></a></li>
                                 </ul>
                             </div>
                             {/* <!-- Museum --> */}
                             <div class="col-lg-3 col-md-3 col-sm-4 col-6 mb-5 mb-md-0 mob-center">
                                 <h4 class="foot-head text-white mb-3">Museum</h4>
                                 <ul class="foot-links list-unstyled">
-                                    <li class="mb-2"><a class="text-white" href="#">About us <div className='hvr-foot-links'></div></a></li>
-                                    <li class="mb-2"><a class="text-white" href="#">Our Mission <div className='hvr-foot-links'></div></a></li>
-                                    <li class="mb-2"><a class="text-white" href="#">Subscribe <div className='hvr-foot-links'></div></a></li>
-                                    <li class="mb-2"><a class="text-white" href="#">Careers <div className='hvr-foot-links'></div></a></li>
-                                    <li class="mb-2"><a class="text-white" href="#">Helpcenter <div className='hvr-foot-links'></div></a></li>
+                                    <li class="mb-2"><a class="text-white" href="coming-soon">About us <div className='hvr-foot-links'></div></a></li>
+                                    <li class="mb-2"><a class="text-white" href="coming-soon">Our Mission <div className='hvr-foot-links'></div></a></li>
+                                    <li class="mb-2"><a class="text-white" href="coming-soon">Subscribe <div className='hvr-foot-links'></div></a></li>
+                                    <li class="mb-2"><a class="text-white" href="coming-soon">Careers <div className='hvr-foot-links'></div></a></li>
+                                    <li class="mb-2"><a class="text-white" href="coming-soon">Helpcenter <div className='hvr-foot-links'></div></a></li>
                                 </ul>
                             </div>
                             {/* <!-- Legal --> */}
                             <div class="col-lg-3 col-md-3 col-sm-4 col-6 mb-5 mb-md-0 mob-center">
                                 <h4 class="foot-head text-white mb-3">Legal</h4>
                                 <ul class="foot-links list-unstyled">
-                                    <li class="mb-2"><a class="text-white" href="#">Privacy Policy <div className='hvr-foot-links'></div></a></li>
-                                    <li class="mb-2"><a class="text-white" href="#">Terms and Conditions <div className='hvr-foot-links'></div></a></li>
-                                    <li class="mb-2"><a class="text-white" href="#">Whitepaper <div className='hvr-foot-links'></div></a></li>
+                                    <li class="mb-2"><a class="text-white" href="coming-soon">Privacy Policy <div className='hvr-foot-links'></div></a></li>
+                                    <li class="mb-2"><a class="text-white" href="coming-soon">Terms and Conditions <div className='hvr-foot-links'></div></a></li>
+                                    <li class="mb-2"><a class="text-white" href="coming-soon">Whitepaper <div className='hvr-foot-links'></div></a></li>
                                 </ul>
                             </div>
                             {/* <!-- Contact --> */}

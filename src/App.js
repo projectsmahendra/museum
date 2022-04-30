@@ -11,6 +11,9 @@ import VirtualTours from './components/experiences/virtual-tours';
 import Games from './components/experiences/games';
 import Metaverse from './components/experiences/metaverse';
 
+import ComingSoon from './components/coming-soon';
+
+
 import Collect from './components/collect/collect';
 import Upcoming from './components/collect/upcoming';
 import Results from './components/collect/results';
@@ -20,6 +23,7 @@ import AllMuseums from './components/collect/all-museums';
 import AllArts from './components/collect/all-arts';
 import AllArtifacts from './components/collect/all-artifacts';
 import Fossils from './components/collect/fossils';
+
 
 function App() {
   return (
@@ -34,6 +38,7 @@ function App() {
           <Route path="/virtual-tours" element={<VirtualTours />} />
           <Route path="/games" element={<Games />} />
           <Route path="/metaverse" element={<Metaverse />} />
+          <Route path="coming-soon" element={<ComingSoon />} />
         </Route>
 
         <Route path="/current-auctions" element={<CollectLayout />} >

@@ -178,6 +178,18 @@
 			$grid.masonry();
 		});
 
+
+
+
+		// Hide think-section from Coming Soon Page
+		// alert("Hi - "+window.location.pathname);
+		if (window.location.pathname == "/coming-soon") {
+				$('.think-section').hide();
+		} else {
+				$('.think-section').show();
+		}
+		
+
 	});
 	// List (at current-auctions.html page)
 	// $(".curr-list-box").click(function(){

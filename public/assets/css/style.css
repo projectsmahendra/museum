@@ -2108,9 +2108,20 @@ link:focus,
   align-items: center;
 }
 
-.top-section {
+/* .top-section {
   padding-top: 170px;
   padding-bottom: 0px;
+} */
+.top-section {
+  padding-top: 0px !important;
+  padding-bottom: 0px;
+  margin-top: 150px;
+}
+.top-section .container {
+  padding-top: 40px;
+}
+.fixed-top {
+  border-bottom: 1px solid #E2E2E2;
 }
 .breadcrumb-section {
   font-weight: normal;
@@ -3719,6 +3730,53 @@ link:focus,
   color: #FFFFFF;
   opacity: 0.8;
 }
+
+
+
+/* coming-soon-bg-section */
+.coming-soon-bg-section {
+  background-image: url("../images/backgrounds/coming-soon-bg.jpg");
+  background-color: #FFFFFF;
+  background-size: cover;
+  background-position: bottom;
+  height: 788px;
+  /* padding: 140px 0; */
+  position: relative;
+}
+
+.coming-soon-bg-section .current-overlay {
+  height: 788px;
+  width: auto;
+  background-image: url("../images/backgrounds/coming-soon-overlay.png");
+  background-size: cover;
+  background-position: top;
+}
+
+.coming-soon-content {
+  position: absolute;
+  top: 160px;
+  left: 0;
+  width: 100%;
+}
+
+.coming-soon-section-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 67px;
+  color: #322E47;
+}
+
+.coming-soon-section-detail {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  color: #322E47;
+  opacity: 0.8;
+}
+
+
 
 
 /* /teacher */

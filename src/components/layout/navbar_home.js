@@ -123,15 +123,15 @@ const NavBarHome = () => {
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link nav-link-mid nav-link-hvr" href="#">COMMUNITY</a>
+                                    <a class="nav-link nav-link-mid nav-link-hvr" href="coming-soon">COMMUNITY</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link nav-link-mid nav-link-hvr" href="#">HELP CENTER</a>
+                                    <a class="nav-link nav-link-mid nav-link-hvr" href="coming-soon">HELP CENTER</a>
                                 </li>
                             </ul>
                             <ul class="navbar-nav text-center lftnav ml-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link nav-link-mid nav-link-hvr" href="#">MY MUSEUM</a>
+                                    <a class="nav-link nav-link-mid nav-link-hvr" href="coming-soon">MY MUSEUM</a>
                                 </li>
                                 <li class="nav-item mr-0">
                                     <a class="nav-link my-btn mt-6" href="/current-auctions">COLLECT</a>

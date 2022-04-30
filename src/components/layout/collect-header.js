@@ -28,9 +28,9 @@ const CollectHeader = () => {
                             </div>
                             <div class="mid-side text-center text-lg-left">
                                 <ul class="list-inline top-hd-ul">
-                                    <li class="list-inline-item"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="#">HELP CENTER</a></li>
-                                    <li class="list-inline-item"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="#">ARCHIVES</a></li>
-                                    <li class="list-inline-item"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="#">MY MUSEUM</a></li>
+                                    <li class="list-inline-item"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="coming-soon">HELP CENTER</a></li>
+                                    <li class="list-inline-item"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="coming-soon">ARCHIVES</a></li>
+                                    <li class="list-inline-item"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="coming-soon">MY MUSEUM</a></li>
                                 </ul>
                             </div>
                             <div class="right-side text-center text-lg-right mob-bot">
@@ -50,8 +50,8 @@ const CollectHeader = () => {
                                             <input class="form-control head-search-input" type="search" placeholder="Search Here" aria-label="Search" />
                                         </form>
                                     </li>
-                                    <li class="list-inline-item py-2"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="#">NEWS</a></li>
-                                    <li class="list-inline-item py-2"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="#">SUBSCRIBE</a></li>
+                                    <li class="list-inline-item py-2"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="coming-soon">NEWS</a></li>
+                                    <li class="list-inline-item py-2"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="coming-soon">SUBSCRIBE</a></li>
                                     <li class="list-inline-item py-2"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">LOGIN</a></li>
                                 </ul>
                                 {/* <ul class="mid-right-menu">
@@ -125,24 +125,24 @@ const CollectHeader = () => {
                                                 <div class="row">
                                                     <div class="col-md-4">
                                                         <a class="dropdown-item" href="/all-museums"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/all-museums.png" alt="icon" /></div> ALL</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/themet.png" alt="icon" /></div> THE MET</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/fieldmuseum.png" alt="icon" /></div> THE FIELD MUSEUM</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/sanfransisco.png" alt="icon" /></div> SANFRANSISCO MUSEUM</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/artchicago.png" alt="icon" /></div> ART INSTITUTE OF CHICAGO</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/themet.png" alt="icon" /></div> THE MET</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/fieldmuseum.png" alt="icon" /></div> THE FIELD MUSEUM</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/sanfransisco.png" alt="icon" /></div> SANFRANSISCO MUSEUM</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/artchicago.png" alt="icon" /></div> ART INSTITUTE OF CHICAGO</a>
                                                     </div>
                                                     <div class="col-md-4">
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/gettycenter.png" alt="icon" /></div> GETTY CENTER</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/royalontario.png" alt="icon" /></div> ROYAL ONTARIO MUSEUM</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/museedelouvre.png" alt="icon" /></div> MUSEE DE LOUVRE</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/tatemodern.png" alt="icon" /></div> TATE MODERN</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/thebritish.png" alt="icon" /></div> THE BRITISH MUSEUM</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/gettycenter.png" alt="icon" /></div> GETTY CENTER</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/royalontario.png" alt="icon" /></div> ROYAL ONTARIO MUSEUM</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/museedelouvre.png" alt="icon" /></div> MUSEE DE LOUVRE</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/tatemodern.png" alt="icon" /></div> TATE MODERN</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/thebritish.png" alt="icon" /></div> THE BRITISH MUSEUM</a>
                                                     </div>
                                                     <div class="col-md-4">
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/egyptian.png" alt="icon" /></div> MUSEUM OF EGYPTIAN</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/statehermitage.png" alt="icon" /></div> STATE HERMITAGE MUSEUM</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/museedorsay.png" alt="icon" /></div> MUSEE D’ORSAY</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/gallerylondon.png" alt="icon" /></div> NATIONAL GALLERY OF LONDON</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/acropolis.png" alt="icon" /></div> ACROPOLIS MUSEUM</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/egyptian.png" alt="icon" /></div> MUSEUM OF EGYPTIAN</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/statehermitage.png" alt="icon" /></div> STATE HERMITAGE MUSEUM</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/museedorsay.png" alt="icon" /></div> MUSEE D’ORSAY</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/gallerylondon.png" alt="icon" /></div> NATIONAL GALLERY OF LONDON</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/museums/acropolis.png" alt="icon" /></div> ACROPOLIS MUSEUM</a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -157,22 +157,22 @@ const CollectHeader = () => {
                                                 <div class="row">
                                                     <div class="col-md-4">
                                                         <a class="dropdown-item" href="/all-arts"><div class="mr-10 grey-gold comming-art"></div> ALL</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/art/sculpture.png" alt="icon" /></div> SCULPTURE</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/art/paintings.png" alt="icon" /></div> PAINTINGS</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/art/contemporary.png" alt="icon" /></div> CONTEMPORARY</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/art/photography.png" alt="icon" /></div> PHOTOGRAPHY</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/art/sculpture.png" alt="icon" /></div> SCULPTURE</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/art/paintings.png" alt="icon" /></div> PAINTINGS</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/art/contemporary.png" alt="icon" /></div> CONTEMPORARY</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/art/photography.png" alt="icon" /></div> PHOTOGRAPHY</a>
                                                     </div>
                                                     <div class="col-md-4">
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/art/prints.png" alt="icon" /></div> PRINTS</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/art/drawings.png" alt="icon" /></div> DRAWINGS</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/art/renassance.png" alt="icon" /></div> RENASSANCE</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/art/impressionist.png" alt="icon" /></div> IMPRESSIONIST</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/art/oldmasters.png" alt="icon" /></div> OLD MASTERS</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/art/prints.png" alt="icon" /></div> PRINTS</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/art/drawings.png" alt="icon" /></div> DRAWINGS</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/art/renassance.png" alt="icon" /></div> RENASSANCE</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/art/impressionist.png" alt="icon" /></div> IMPRESSIONIST</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/art/oldmasters.png" alt="icon" /></div> OLD MASTERS</a>
                                                     </div>
                                                     <div class="col-md-4">
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/art/abstract.png" alt="icon" /></div> ABSTRACT</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/art/pop.png" alt="icon" /></div> POP</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/art/portrait.png" alt="icon" /></div> PORTRAIT</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/art/abstract.png" alt="icon" /></div> ABSTRACT</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/art/pop.png" alt="icon" /></div> POP</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/art/portrait.png" alt="icon" /></div> PORTRAIT</a>
                                                     </div>
                                                 </div>
                                             </li>
@@ -187,24 +187,24 @@ const CollectHeader = () => {
                                                 <div class="row">
                                                     <div class="col-md-4">
                                                         <a class="dropdown-item" href="all-artifacts"><div class="mr-10 grey-gold comming-artifacts"></div> ALL</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/dinosaurs.png" alt="icon" /></div> DINOSAURS</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/dinosaurs.png" alt="icon" /></div> DINOSAURS</a>
                                                         <a class="dropdown-item" href="/fossils"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/fossils.png" alt="icon" /></div> FOSSILS</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/birds.png" alt="icon" /></div> BIRDS, MAMMALS, REPTILES</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/masks.png" alt="icon" /></div> MASKS</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/birds.png" alt="icon" /></div> BIRDS, MAMMALS, REPTILES</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/masks.png" alt="icon" /></div> MASKS</a>
                                                     </div>
                                                     <div class="col-md-4">
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/military.png" alt="icon" /></div> MILITARY</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/archeology.png" alt="icon" /></div> ARCHEOLOGY</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/oceanic.png" alt="icon" /></div> OCEANIC</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/antiques.png" alt="icon" /></div> ANTIQUES</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/sculpture.png" alt="icon" /></div> ANCIENT SCULPTURE</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/military.png" alt="icon" /></div> MILITARY</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/archeology.png" alt="icon" /></div> ARCHEOLOGY</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/oceanic.png" alt="icon" /></div> OCEANIC</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/antiques.png" alt="icon" /></div> ANTIQUES</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/sculpture.png" alt="icon" /></div> ANCIENT SCULPTURE</a>
                                                     </div>
                                                     <div class="col-md-4">
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/americana.png" alt="icon" /></div> AMERICANA</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/african.png" alt="icon" /></div> AFRICAN</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/chinese.png" alt="icon" /></div> CHINESE</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/egyptian.png" alt="icon" /></div> EGYPTIAN</a>
-                                                        <a class="dropdown-item" href="#"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/greek.png" alt="icon" /></div> GREEK AND ROMAN</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/americana.png" alt="icon" /></div> AMERICANA</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/african.png" alt="icon" /></div> AFRICAN</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/chinese.png" alt="icon" /></div> CHINESE</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/egyptian.png" alt="icon" /></div> EGYPTIAN</a>
+                                                        <a class="dropdown-item" href="coming-soon"><div class="mr-10"><img src="../../assets/images/icons/menu/artifacts/greek.png" alt="icon" /></div> GREEK AND ROMAN</a>
                                                     </div>
                                                 </div>
                                             </li>
