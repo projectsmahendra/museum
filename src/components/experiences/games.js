@@ -98,7 +98,7 @@ const Games = () => {
                 <div class="container">
                     <div class="game-content text-center">
                         <h2 class="games-section-title text-white">Coming Soon!</h2>
-                        <p class="games-section-detail text-white mb-5">Lorem ipsum dolor sit amet, consectetur orem ipsum dolor sit amet</p>
+                        {/* <p class="games-section-detail text-white mb-5">Lorem ipsum dolor sit amet, consectetur orem ipsum dolor sit amet</p> */}
                     </div>
                 </div>
             </section>
