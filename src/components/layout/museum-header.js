@@ -53,30 +53,129 @@ const MuseumHeader = () => {
 
 
             {/* Login Modal */}
-            <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal fade loginModal" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content rounded-0 border-0 p-4">
-                        <div class="modal-header border-0">
-                            <h3>Login</h3>
-                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
+
                         <div class="modal-body">
-                            <form action="#" class="row">
-                                <div class="col-12">
-                                    <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Phone" />
+                            <div className='row'>
+                                <div class="col-lg-6 login-bg">
+                                    <img src="../../assets/images/login-logo.png" class="login-logo" alt="logo" />
                                 </div>
-                                <div class="col-12">
-                                    <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Name" />
+                                <div class="col-lg-6 login-form-box">
+                                    <div className='close-box'>
+                                        <button type="button" class="close border-0" data-bs-dismiss="modal" aria-label="Close">
+                                            &times;
+                                        </button>
+                                    </div>
+                                    <div className='login-cont-box'>
+                                        <h3>Welcome Back!</h3>
+                                        <p>Login to continue and explore more</p>
+                                        <form action="#" class="row">
+                                            <div class="col-12">
+                                                <div class="input-group mb-2">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text"><img src="../../assets/images/icons/login-user.png" alt="logo" /></div>
+                                                    </div>
+                                                    <input type="text" class="form-control" id="loginuser" name="loginuser" placeholder="USERNAME" />
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="input-group mb-2">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text"><img src="../../assets/images/icons/login-pass.png" alt="logo" /></div>
+                                                    </div>
+                                                    <input type="password" class="form-control" id="loginPassword" name="loginPassword" placeholder="PASSWORD" />
+                                                </div>
+                                            </div>
+                                            <div className='forgot-pass'><a href="#">Forgot Password?</a></div>
+                                            <div class="col-12">
+                                                <button type="submit" class="my-btn login-btn">LOGIN</button>
+                                            </div>
+                                        </form>
+                                        <div className='signup-box'><span>Or Signup with</span></div>
+                                        <ul class="login-icons list-inline">
+                                            <li class="mb-3 list-inline-item"><a href="#" target="_blank"><img src="../../assets/images/icons/google.png" alt="logo" /></a></li>
+                                            <li class="mb-3 list-inline-item"><a href="#" target="_blank"><img src="../../assets/images/icons/twitter.png" alt="logo" /></a></li>
+                                            <li class="mb-3 list-inline-item"><a href="#" target="_blank"><img src="../../assets/images/icons/facebook.png" alt="logo" /></a></li>
+                                        </ul>
+                                        <div className='signup-link'>Don’t have an account? <a class="openlogin" href="#" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#signupModal">Create New</a></div>
+                                    </div>
                                 </div>
-                                <div class="col-12">
-                                    <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Password" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            {/* Signup Modal */}
+            <div class="modal fade loginModal" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content rounded-0 border-0 p-4">
+                        <div class="modal-body">
+                            <div className='row'>
+                                <div class="col-lg-6 login-bg">
+                                    <img src="../../assets/images/login-logo.png" class="login-logo" alt="logo" />
                                 </div>
-                                <div class="col-12">
-                                    <button type="submit" class="btn btn-primary">LOGIN</button>
+                                <div class="col-lg-6 login-form-box">
+                                    <div className='close-box'>
+                                        <button type="button" class="close border-0" data-bs-dismiss="modal" aria-label="Close">
+                                            &times;
+                                        </button>
+                                    </div>
+                                    <div className='login-cont-box'>
+                                        <h3>Create new account</h3>
+                                        <p>Signup here and get access to explore more</p>
+                                        <form action="#" class="row">
+                                            <div class="col-12">
+                                                <div class="input-group mb-2">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text"><img src="../../assets/images/icons/login-user.png" alt="logo" /></div>
+                                                    </div>
+                                                    <input type="text" class="form-control" id="loginfullname" name="loginfullname" placeholder="Full Name" />
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="input-group mb-2">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text"><img src="../../assets/images/icons/login-email.png" alt="logo" /></div>
+                                                    </div>
+                                                    <input type="text" class="form-control" id="loginemail" name="loginemail" placeholder="Email Address" />
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="input-group mb-2">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text"><img src="../../assets/images/icons/login-phone.png" alt="logo" /></div>
+                                                    </div>
+                                                    <input type="text" class="form-control" id="loginphone" name="loginphone" placeholder="PHONE NUMBER" />
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="input-group mb-2">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text"><img src="../../assets/images/icons/login-pass.png" alt="logo" /></div>
+                                                    </div>
+                                                    <input type="password" class="form-control" id="loginCretPassword" name="loginCretPassword" placeholder="Create Password" />
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="input-group mb-2">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text"><img src="../../assets/images/icons/login-pass.png" alt="logo" /></div>
+                                                    </div>
+                                                    <input type="password" class="form-control" id="loginConfPassword" name="loginConfPassword" placeholder="Conform Password" />
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <button type="submit" class="my-btn login-btn">CREATE</button>
+                                            </div>
+                                        </form>
+                                        <div className='signup-link'>Already have an account? <a class="openlogin" href="#" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#loginModal">Login here</a></div>
+                                    </div>
                                 </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -88,7 +187,7 @@ const MuseumHeader = () => {
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content rounded-0 border-0 p-4">
                         <div class="modal-header border-0">
-                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <button type="button" class="close border-0" data-bs-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
@@ -139,7 +238,7 @@ const MuseumHeader = () => {
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content rounded-0 border-0 p-4">
                         <div class="modal-header border-0">
-                            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <button type="button" class="close border-0" data-bs-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>

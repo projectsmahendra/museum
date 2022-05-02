@@ -115,7 +115,7 @@ h6, .h6 {
 }
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-  color: #322E47 !important;
+  color: #322E47;
 }
 
 /* Button style */
@@ -181,6 +181,7 @@ h6, .h6 {
   color: #fff !important;
   width: 125px;
   height: 44px;
+  border: 0px;
   border-radius: 5px;
   padding: 15px !important;
   transition: 0.5s;
@@ -192,6 +193,7 @@ h6, .h6 {
 
 .my-btn:hover {
   background: linear-gradient(263.09deg, #895B00 2.75%, #AD7B00 23.79%, #C28600 45.83%, #E3B100 61.86%, #9B7100 77.39%, #8A5800 94.42%);
+  color: #FFFFFF !important;
 }
 
 .my-btn-outline {
@@ -485,16 +487,16 @@ a h4:hover {
 .partner-modal .modal-header {
   justify-content: flex-end;
 }
-.modal-body {
+.partner-modal .modal-body {
   overflow: hidden;
 }
 
-.modal-body ul {
+.partner-modal .modal-body ul {
   padding-left: 24px;
   list-style: none;
 }
 
-.modal-body ul li::before {
+.partner-modal .modal-body ul li::before {
   content: "\2022";
   color: #F4B73A;
   font-weight: bold;
@@ -504,11 +506,11 @@ a h4:hover {
   margin-left: -1em;
 }
 
-.modal-body h6 {
+.partner-modal .modal-body h6 {
   margin-top: 40px;
 }
 
-.modelFooter {
+.partner-modal .modelFooter {
   height: 101px;
   padding: 0px 20px;
   background: linear-gradient(101.34deg, #C18D00 33.66%, #FCBC1E 60.26%, #D6A649 87.31%, #B67E10 120.23%);
@@ -516,18 +518,18 @@ a h4:hover {
   margin: 40px 0px;
 }
 
-.modelFooter-icon {
+.partner-modal .modelFooter-icon {
   padding-top: 12px;
 }
 
-.modelFooter p {
+.partner-modal .modelFooter p {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #fffffffc;
   margin-bottom: 0;
 }
-.modelFooter a {
+.partner-modal .modelFooter a {
   font-weight: bold;
   font-size: 18px;
   letter-spacing: 0.7px;
@@ -1713,6 +1715,133 @@ link:focus,
   width: 100%;
   left: 0;
 }
+
+/* login */
+.close-box {
+  text-align: right;
+  position: absolute;
+  top: -30px;
+  right: -20px;
+}
+.close-box .close, .modal-header .close {
+  background: #FFFFFF;
+  font-size: 30px;
+}
+.loginModal .modal-content {
+  overflow: hidden;
+}
+.loginModal .modal-body {
+  padding: 0px !important;
+}
+.login-cont-box {
+  padding: 40px 20px;
+}
+.login-bg {
+  background-image: url("../images/backgrounds/login-bg.png") !important;
+  background-size: cover !important;
+  /* height: 90vh; */
+  position: relative;
+}
+.login-logo {
+  position: absolute;
+  bottom: 40px;
+  left: calc(50% - 130px);
+}
+.forgot-pass {
+  text-align: right;
+}
+.login-btn {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.login-form-box .form-control {
+  height: unset !important;
+  border: 0px;
+  border-radius: 5px;
+}
+.login-form-box .input-group-text {
+  background-color: #ffffff;
+  border: 0px;
+  width: 50px;
+  border-radius: 0;
+  margin: 10px 0px;
+  padding: 0px 12px;
+  border-right: solid 2px #0000001a;
+}
+.login-form-box .input-group {
+  border: solid 1px #E5E5E5;
+  border-radius: 5px;
+}
+.form-control::placeholder {
+  color: #c1c1c1fc;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #c1c1c1fc;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #c1c1c1fc;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.forgot-pass {
+  margin-bottom: 10px;
+}
+.forgot-pass a {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #6E6B7C;
+  text-align: right;
+  margin-bottom: 10px;
+}
+.signup-box {
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #E2E2E2; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+  color: #6E6B7C;
+  font-weight: 400;
+  font-size: 10px;
+} 
+.signup-box span { 
+   background:#fff; 
+   padding:0 10px; 
+}
+.login-icons .list-inline-item:not(:last-child) {
+  margin-right: 1.5rem;
+}
+.login-icons {
+  text-align: center;
+}
+.signup-link {
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #6E6B7C;
+}
+.signup-link a {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #322E47;
+  transition: 0.5s;
+}
+.signup-link a:hover, .forgot-pass a:hover {
+  color: #DE9D0D;
+}
+
 
 .position-relative {
   position: relative;

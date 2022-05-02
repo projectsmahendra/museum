@@ -188,7 +188,6 @@
 		} else {
 				$('.think-section').show();
 		}
-		
 
 	});
 	// List (at current-auctions.html page)
