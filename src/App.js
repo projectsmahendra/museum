@@ -23,6 +23,7 @@ import AllMuseums from './components/collect/all-museums';
 import AllArts from './components/collect/all-arts';
 import AllArtifacts from './components/collect/all-artifacts';
 import Fossils from './components/collect/fossils';
+import PlaceBid from './components/collect/place-bid';
 
 
 function App() {
@@ -67,6 +68,9 @@ function App() {
         </Route>
         <Route path="/fossils" element={<CollectLayout />} >
           <Route index element={<Fossils />} />
+        </Route>
+        <Route path="/place-bid" element={<CollectLayout />} >
+          <Route index element={<PlaceBid />} />
         </Route>
 
       </Routes>

@@ -97,22 +97,24 @@ const VirtualExhibits = () => {
                 <div class="container">
                     <div class="regular slider">
                         {topMuseums.map((museums, id) => (
-                            <div class="car-item">
-                                {/* <img src="../../assets/images/museums/1.png" class="img-fluid" alt="museums" /> */}
-                                <img src={`../../assets/images/museums/${id}.png`} class="img-fluid" alt="museums" />
-                                <div class="card-body">
-                                    <ul class="cbul">
-                                        <li class="cbul-thumb">
-                                            <img class="card-img-top img-fluid" src="../../assets/images/museums/thumb-1.png" alt="museums" />
-                                        </li>
-                                        <li class="cbul-dtl">
-                                            <span class="card-head">Antique Museum</span>
-                                            <br />
-                                            <span class="card-subhead">Toronto, Canada</span>
-                                        </li>
-                                    </ul>
+                            <a href="place-bid">
+                                <div class="car-item">
+                                    {/* <img src="../../assets/images/museums/1.png" class="img-fluid" alt="museums" /> */}
+                                    <img src={`../../assets/images/museums/${id}.png`} class="img-fluid" alt="museums" />
+                                    <div class="card-body">
+                                        <ul class="cbul">
+                                            <li class="cbul-thumb">
+                                                <img class="card-img-top img-fluid" src="../../assets/images/museums/thumb-1.png" alt="museums" />
+                                            </li>
+                                            <li class="cbul-dtl">
+                                                <span class="card-head">Antique Museum</span>
+                                                <br />
+                                                <span class="card-subhead">Toronto, Canada</span>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         ))}
                     </div>
                 </div>
@@ -191,9 +193,9 @@ const VirtualExhibits = () => {
                         {/* <!-- item --> */}
                         {topMuseums.map((museums, id) => (
                             <div class="col-lg-6 col-sm-6 mb-3">
-                                <a class="text-color" href="#">
+                                <a class="text-color" href="place-bid">
                                     <div class="card p-0 hover-shadow" style={{ backgroundImage: `url("/assets/images/museums/${museums.imgtitle}.jpg")` }}>
-                                    <div class="current-overlay"></div>
+                                        <div class="current-overlay"></div>
                                         {/* <img class="card-img-top img-fluid" src="../../assets/images/openings/opening1.jpg" alt="openings" /> */}
                                         <div class="card-body">
                                             <div class="save-btn">

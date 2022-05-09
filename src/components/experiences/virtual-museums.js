@@ -155,22 +155,24 @@ const Museum = () => {
                 <div class="container">
                     <div class="regular slider">
                         {topMuseums.map((museums, id) => (
-                            <div class="car-item" key={id}>
-                                {/* <img src="../../assets/images/museums/1.png" class="img-fluid" alt="museums" /> */}
-                                <img src={`../../assets/images/museums/${id}.png`} class="img-fluid" alt="museums" />
-                                <div class="card-body">
-                                    <ul class="cbul">
-                                        <li class="cbul-thumb">
-                                            <img class="card-img-top img-fluid" src="../../assets/images/museums/thumb-1.png" alt="museums" />
-                                        </li>
-                                        <li class="cbul-dtl">
-                                            <span class="card-head">Antique Museum</span>
-                                            <br />
-                                            <span class="card-subhead">Toronto, Canada</span>
-                                        </li>
-                                    </ul>
+                            <a href="place-bid">
+                                <div class="car-item" key={id}>
+                                    {/* <img src="../../assets/images/museums/1.png" class="img-fluid" alt="museums" /> */}
+                                    <img src={`../../assets/images/museums/${id}.png`} class="img-fluid" alt="museums" />
+                                    <div class="card-body">
+                                        <ul class="cbul">
+                                            <li class="cbul-thumb">
+                                                <img class="card-img-top img-fluid" src="../../assets/images/museums/thumb-1.png" alt="museums" />
+                                            </li>
+                                            <li class="cbul-dtl">
+                                                <span class="card-head">Antique Museum</span>
+                                                <br />
+                                                <span class="card-subhead">Toronto, Canada</span>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         ))}
                     </div>
                 </div>
@@ -249,7 +251,7 @@ const Museum = () => {
                         {/* <!-- item --> */}
                         {museums.map((museum, id) => (
                             <div class="col-lg-3 col-sm-6 mb-3" key={id}>
-                                <a class="text-color" href="#">
+                                <a class="text-color" href="place-bid">
                                     <div class="card p-0 hover-shadow">
                                         {/* <img class="card-img-top img-fluid" src="../../assets/images/museums/4.png" alt="museums" /> */}
                                         <img class="card-img-top img-fluid" src={`../../assets/images/museums/${museum.imgtitle}.png`} alt="museums" />

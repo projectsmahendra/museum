@@ -79,9 +79,6 @@
 			]
 		});
 
-
-
-		
 	});
 
 
@@ -173,20 +170,49 @@
 		// 	$grid.masonry();
 		// });
 
-		$grid.on('click', '.cbul', function (event) {
-			$(this).parent().parent().parent().parent().parent().parent().toggleClass("is-expanded");
-			$grid.masonry();
-		});
+		// $grid.on('click', '.cbul', function (event) {
+		// 	$(this).parent().parent().parent().parent().parent().parent().toggleClass("is-expanded");
+		// 	$grid.masonry();
+		// });
 
+
+		// $('.cbul').hover(
+		// 	function () {
+		// 		$(this).parent().parent().parent().parent().parent().parent().addClass("is-expanded"); //Add an active class to the anchor
+		// 	},
+		// 	function () {
+		// 		$(this).parent().parent().parent().parent().parent().parent().removeClass("is-expanded"); //Remove an active class to the anchor
+		// 	}
+		// )
+
+		// $('.current-list').hover(
+		// 	function () {
+		// 		$(this).parent().parent().parent().parent().parent().addClass("is-expanded"); //Add an active class to the anchor
+		// 	},
+		// 	function () {
+		// 		$(this).parent().parent().parent().parent().parent().removeClass("is-expanded"); //Remove an active class to the anchor
+		// 	}
+		// )
+
+		$('.grid-item').hover(
+			function () {
+				$(this).addClass("is-expanded"); //Add an active class to the anchor
+			},
+			function () {
+				$(this).removeClass("is-expanded"); //Remove an active class to the anchor
+			}
+		)
+
+		
 
 
 
 		// Hide think-section from Coming Soon Page
 		// alert("Hi - "+window.location.pathname);
 		if (window.location.pathname == "/coming-soon") {
-				$('.think-section').hide();
+			$('.think-section').hide();
 		} else {
-				$('.think-section').show();
+			$('.think-section').show();
 		}
 
 	});
@@ -204,43 +230,208 @@
 
 
 	// Searchbar
-	var subjectObject = {
-		"Front-end": {
-			"HTML": ["Links", "Images", "Tables", "Lists"],
-			"CSS": ["Borders", "Margins", "Backgrounds", "Float"],
-			"JavaScript": ["Variables", "Operators", "Functions", "Conditions"]
-		},
-		"Back-end": {
-			"PHP": ["Variables", "Strings", "Arrays"],
-			"SQL": ["SELECT", "UPDATE", "DELETE"]
-		}
-	}
-	window.onload = function () {
-		var subjectSel = document.getElementById("subject");
-		var topicSel = document.getElementById("topic");
-		var chapterSel = document.getElementById("chapter");
-		for (var x in subjectObject) {
-			subjectSel.options[subjectSel.options.length] = new Option(x, x);
-		}
-		subjectSel.onchange = function () {
-			//empty Chapters- and Topics- dropdowns
-			chapterSel.length = 1;
-			topicSel.length = 1;
-			//display correct values
-			for (var y in subjectObject[this.value]) {
-				topicSel.options[topicSel.options.length] = new Option(y, y);
-			}
-		}
-		topicSel.onchange = function () {
-			//empty Chapters dropdown
-			chapterSel.length = 1;
-			//display correct values
-			var z = subjectObject[subjectSel.value][this.value];
-			for (var i = 0; i < z.length; i++) {
-				chapterSel.options[chapterSel.options.length] = new Option(z[i], z[i]);
-			}
-		}
-	}
+	// var subjectObject = {
+	// 	"Front-end": {
+	// 		"HTML": ["Links", "Images", "Tables", "Lists"],
+	// 		"CSS": ["Borders", "Margins", "Backgrounds", "Float"],
+	// 		"JavaScript": ["Variables", "Operators", "Functions", "Conditions"]
+	// 	},
+	// 	"Back-end": {
+	// 		"PHP": ["Variables", "Strings", "Arrays"],
+	// 		"SQL": ["SELECT", "UPDATE", "DELETE"]
+	// 	}
+	// }
+	// window.onload = function () {
+	// 	var subjectSel = document.getElementById("subject");
+	// 	var topicSel = document.getElementById("topic");
+	// 	var chapterSel = document.getElementById("chapter");
+	// 	for (var x in subjectObject) {
+	// 		subjectSel.options[subjectSel.options.length] = new Option(x, x);
+	// 	}
+	// 	subjectSel.onchange = function () {
+	// 		//empty Chapters- and Topics- dropdowns
+	// 		chapterSel.length = 1;
+	// 		topicSel.length = 1;
+	// 		//display correct values
+	// 		for (var y in subjectObject[this.value]) {
+	// 			topicSel.options[topicSel.options.length] = new Option(y, y);
+	// 		}
+	// 	}
+	// 	topicSel.onchange = function () {
+	// 		//empty Chapters dropdown
+	// 		chapterSel.length = 1;
+	// 		//display correct values
+	// 		var z = subjectObject[subjectSel.value][this.value];
+	// 		for (var i = 0; i < z.length; i++) {
+	// 			chapterSel.options[chapterSel.options.length] = new Option(z[i], z[i]);
+	// 		}
+	// 	}
+	// }
 
 
 })(jQuery);
+
+
+/* PLACE A BID - Product Slider */
+$ = jQuery;
+$(document).ready(function () {
+
+	$h_slider_options = {
+		gallery: false,
+		item: 1,
+		loop: true,
+		slideMargin: 0,
+		thumbItem: 6,
+		galleryMargin: 10,
+		thumbMargin: 10,
+	};
+
+	h_slider = $('#bidlightSlider').lightSlider($h_slider_options);
+
+	$selector = '#bidlightSlider li:not(".clone") a';
+
+	$().fancybox({
+		selector: $selector,
+		backFocus: false,
+		buttons: [
+			'slideShow',
+			'fullScreen',
+			'close'
+		]
+	});
+
+});
+
+$(window).resize(function () {
+	slider.destroy();
+	h_slider = $('#ocassions-slider').lightSlider(h_slider_options);
+});
+
+/* -------------------- */
+
+/* countdown ---------- */
+/*
+$(function() {
+  
+	var targetDate  = new Date(Date.UTC(2017, 3, 10));
+	var now   = new Date();
+  
+	window.days = daysBetween(now, targetDate);
+	var secondsLeft = secondsDifference(now, targetDate);
+	window.hours = Math.floor(secondsLeft / 60 / 60);
+	secondsLeft = secondsLeft - (window.hours * 60 * 60);
+	window.minutes = Math.floor(secondsLeft / 60 );
+	secondsLeft = secondsLeft - (window.minutes * 60);
+	console.log(secondsLeft);
+	window.seconds = Math.floor(secondsLeft);
+  
+	startCountdown();
+  });
+  var interval;
+  
+  function daysBetween( date1, date2 ) {
+	//Get 1 day in milliseconds
+	var one_day=1000*60*60*24;
+  
+	// Convert both dates to milliseconds
+	var date1_ms = date1.getTime();
+	var date2_ms = date2.getTime();
+  
+	// Calculate the difference in milliseconds
+	var difference_ms = date2_ms - date1_ms;
+	  
+	// Convert back to days and return
+	return Math.round(difference_ms/one_day); 
+  }
+  
+  function secondsDifference( date1, date2 ) {
+	//Get 1 day in milliseconds
+	var one_day=1000*60*60*24;
+  
+	// Convert both dates to milliseconds
+	var date1_ms = date1.getTime();
+	var date2_ms = date2.getTime();
+	var difference_ms = date2_ms - date1_ms;
+	var difference = difference_ms / one_day; 
+	var offset = difference - Math.floor(difference);
+	return offset * (60*60*24);
+  }
+  
+  
+  
+  function startCountdown() {
+	$('#input-container').hide();
+	$('#countdown-container').show();
+	
+	displayValue('#js-days', window.days);
+	displayValue('#js-hours', window.hours);
+	displayValue('#js-minutes', window.minutes);
+	displayValue('#js-seconds', window.seconds);
+  
+	interval = setInterval(function() {
+	  if (window.seconds > 0) {
+		window.seconds--;
+		displayValue('#js-seconds', window.seconds);
+	  } else {
+		// Seconds is zero - check the minutes
+		if (window.minutes > 0) {
+		  window.minutes--;
+		  window.seconds = 59;
+		  updateValues('minutes');
+		} else {
+		  // Minutes is zero, check the hours
+		  if (window.hours > 0)  {
+			window.hours--;
+			window.minutes = 59;
+			window.seconds = 59;
+			updateValues('hours');
+		  } else {
+			// Hours is zero
+			window.days--;
+			window.hours = 23;
+			window.minutes = 59;
+			window.seconds = 59;
+			updateValues('days');
+		  }
+		  // $('#js-countdown').addClass('remove');
+		  // $('#js-next-container').addClass('bigger');
+		}
+	  }
+	}, 1000);
+  }
+  
+  
+  function updateValues(context) {
+	if (context === 'days') {
+	  displayValue('#js-days', window.days);
+	  displayValue('#js-hours', window.hours);
+	  displayValue('#js-minutes', window.minutes);
+	  displayValue('#js-seconds', window.seconds);
+	} else if (context === 'hours') {
+	  displayValue('#js-hours', window.hours);
+	  displayValue('#js-minutes', window.minutes);
+	  displayValue('#js-seconds', window.seconds);
+	} else if (context === 'minutes') {
+	  displayValue('#js-minutes', window.minutes);
+	  displayValue('#js-seconds', window.seconds);
+	}
+  }
+  
+  function displayValue(target, value) {
+	var newDigit = $('<span></span>');
+	$(newDigit).text(pad(value))
+	  .addClass('new');
+	$(target).prepend(newDigit);
+	$(target).find('.current').addClass('old').removeClass('current');
+	setTimeout(function() {
+	  $(target).find('.old').remove();
+	  $(target).find('.new').addClass('current').removeClass('new');
+	}, 900);
+  }
+  
+  function pad(number) {
+	return ("0" + number).slice(-2);
+  }
+*/
+
+/* ----------- */

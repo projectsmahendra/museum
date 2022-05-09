@@ -28,9 +28,9 @@ const CollectHeader = () => {
                             </div>
                             <div class="mid-side text-center text-lg-left">
                                 <ul class="list-inline top-hd-ul">
-                                    <li class="list-inline-item"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="coming-soon">HELP CENTER</a></li>
-                                    <li class="list-inline-item"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="coming-soon">ARCHIVES</a></li>
-                                    <li class="list-inline-item"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="coming-soon">MY MUSEUM</a></li>
+                                    <li class="list-inline-item ctrmnu"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="coming-soon">HELP CENTER</a></li>
+                                    <li class="list-inline-item ctrmnu"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="coming-soon">ARCHIVES</a></li>
+                                    <li class="list-inline-item ctrmnu"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="coming-soon">MY MUSEUM</a></li>
                                 </ul>
                             </div>
                             <div class="right-side text-center text-lg-right mob-bot">
@@ -50,9 +50,9 @@ const CollectHeader = () => {
                                             <input class="form-control head-search-input" type="search" placeholder="Search Here" aria-label="Search" />
                                         </form>
                                     </li>
-                                    <li class="list-inline-item py-2"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="coming-soon">NEWS</a></li>
-                                    <li class="list-inline-item py-2"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="coming-soon">SUBSCRIBE</a></li>
-                                    <li class="list-inline-item py-2"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">LOGIN</a></li>
+                                    <li class="list-inline-item py-2 ritmnu"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="coming-soon">NEWS</a></li>
+                                    <li class="list-inline-item py-2 ritmnu"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="coming-soon">SUBSCRIBE</a></li>
+                                    <li class="list-inline-item py-2 ritmnu"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">LOGIN</a></li>
                                 </ul>
                                 {/* <ul class="mid-right-menu">
                                 <li class="head-search">
@@ -102,7 +102,7 @@ const CollectHeader = () => {
                                             AUCTIONS
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a class="dropdown-item" href="/current-auctions"><div class="mr-10 grey-gold current"></div> CURRENT</a></li>
+                                            <li><a class="dropdown-item" href="/current-auctions"><div class="mr-10 grey-gold currentmnu"></div> CURRENT</a></li>
                                             <li><a class="dropdown-item" href="/upcoming-auctions"><div class="mr-10 grey-gold upcoming"></div> UPCOMING</a></li>
                                             <li><a class="dropdown-item" href="/auction-results"><div class="mr-10 grey-gold results"></div> RESULTS</a></li>
                                         </ul>
