@@ -86,11 +86,11 @@ const PlaceBid = () => {
             <section className="page-title-section bid-title-section">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-lg-6">
                             <h1 className="page-title place-bid-title">Earth's hidden extinctions</h1>
                             <p className="page-details">Fossil record during the mass extinction</p>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-lg-6">
                             <div className="title-right-box">
                                 <div className="endsin-label">Ends in</div>
                                 <ul className="list-inline countdown-box">
@@ -124,15 +124,57 @@ const PlaceBid = () => {
                     <div class="main-wrapper">
                         <div class="demo">
                             <ul id="bidlightSlider">
+
                                 <li class="product-img" data-thumb="../../assets/images/banner/product-banner/1.png">
                                     <a href="../../assets/images/banner/product-banner/1.png" data-fancybox="gallery">
                                         <img src="../../assets/images/banner/product-banner/1.png" alt="hidden-extinctions" />
                                     </a>
                                 </li>
-                                <li class="product-img" data-thumb="../../assets/images/banner/product-banner/2.png">
+                                {/* <li class="product-img" data-thumb="../../assets/images/banner/product-banner/2.png">
                                     <a href="../../assets/images/banner/product-banner/2.png" data-fancybox="gallery">
                                         <img src="../../assets/images/banner/product-banner/2.png" alt="hidden-extinctions" />
                                     </a>
+                                </li> */}
+                                <li class="certi-box">
+                                    <div className='layer1'>
+                                        <div className='layer2'>
+                                            <div className='layer3'>
+                                                <div className='layer4'>
+                                                    <div className='layer5'>
+                                                        <div className='layer6'>
+
+                                                            <div className="row">
+                                                                <div className="col-lg-12">
+                                                                    <h2 className='certi-head'>Certificate of Authenticity</h2>
+                                                                </div>
+                                                                <div className="col-lg-12 certi-ulbox">
+                                                                    <ul className='guarantee-ul'>
+                                                                        <li>Enter Description of guarantee here</li>
+                                                                        <li>Enter Description of guarantee here</li>
+                                                                        <li>Enter Description of guarantee here</li>
+                                                                    </ul>
+                                                                    <ul className='orignal-ul'>
+                                                                        <li><img class="img-fluid" src="../../assets/images/icons/orignal.png" alt="orignal" /></li>
+                                                                    </ul>
+                                                                    <ul className='info-ul'>
+                                                                        <li>Enter Item information here</li>
+                                                                        <li>Enter Item information here</li>
+                                                                        <li>Enter Item information here</li>
+                                                                    </ul>
+
+                                                                    <ul className='sign-ul'>
+                                                                        <li>Enter signature here</li>
+                                                                        <li><img class="signature img-fluid" src="../../assets/images/icons/signature.png" alt="signature" /></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </li>
                                 <li class="product-data">
                                     <div>
@@ -219,6 +261,7 @@ const PlaceBid = () => {
                                         </div>
                                     </div>
                                 </li>
+
                             </ul>
                         </div>
                     </div>
