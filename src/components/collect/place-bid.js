@@ -92,25 +92,17 @@ const PlaceBid = () => {
                         </div>
                         <div className="col-lg-6">
                             <div className="title-right-box">
-                                <div className="endsin-label">Ends in</div>
-                                <ul className="list-inline countdown-box">
-                                    <li className="list-inline-item"><span className="text-bold">5</span><br />Days</li>
-                                    <li className="list-inline-item"><span className="text-bold">12</span><br />Hours</li>
-                                    <li className="list-inline-item"><span className="text-bold">20</span><br />Mins</li>
-                                    <li className="list-inline-item"><span className="text-bold">55</span><br />Sec</li>
-                                </ul>
-                                {/* <div id="countdown-container" class="countdown-container">
-                                    <div id="js-countdown" class="countdown">
-                                        <div id="js-days" class="number"></div>
-                                        <div id="js-separator" class="separator">:</div>
-                                        <div id="js-hours" class="number"></div>
-                                        <div id="js-separator" class="separator">:</div>
-                                        <div id="js-minutes" class="number"></div>
-                                        <div id="js-separator" class="separator">:</div>
-                                        <div id="js-seconds" class="number"></div>
-                                    </div>
-                                </div> */}
-                                <a href="#" className="my-btn place-bid-btn ml-auto">PLACE A BID</a>
+                                <div className="countdown-box">
+                                    <div className="endsin-label">Ends in</div>
+                                    <ul className="list-inline countdown-ul">
+                                        <li className="list-inline-item"><span className="text-bold">5</span><br />Days</li>
+                                        <li className="list-inline-item"><span className="text-bold">12</span><br />Hours</li>
+                                        <li className="list-inline-item"><span className="text-bold">20</span><br />Mins</li>
+                                        <li className="list-inline-item"><span className="text-bold">55</span><br />Sec</li>
+                                    </ul>
+                                </div>
+                                <button type="button" className="my-btn place-bid-btn ml-auto">PLACE A BID</button>
+                                {/* <a href="#" className="my-btn place-bid-btn ml-auto">PLACE A BID</a> */}
                             </div>
                         </div>
                     </div>
@@ -124,10 +116,9 @@ const PlaceBid = () => {
                     <div class="main-wrapper">
                         <div class="demo">
                             <ul id="bidlightSlider">
-
-                                <li class="product-img" data-thumb="../../assets/images/banner/product-banner/1.png">
-                                    <a href="../../assets/images/banner/product-banner/1.png" data-fancybox="gallery">
-                                        <img src="../../assets/images/banner/product-banner/1.png" alt="hidden-extinctions" />
+                                <li class="product-img bidslideli" data-thumb="../../assets/images/banner/product-banner/3.png">
+                                    <a href="../../assets/images/banner/product-banner/3.png" data-fancybox="gallery">
+                                        <img src="../../assets/images/banner/product-banner/3.png" alt="hidden-extinctions" />
                                     </a>
                                 </li>
                                 {/* <li class="product-img" data-thumb="../../assets/images/banner/product-banner/2.png">
@@ -135,7 +126,7 @@ const PlaceBid = () => {
                                         <img src="../../assets/images/banner/product-banner/2.png" alt="hidden-extinctions" />
                                     </a>
                                 </li> */}
-                                <li class="certi-box">
+                                <li class="certi-box bidslideli">
                                     <div className='layer1'>
                                         <div className='layer2'>
                                             <div className='layer3'>
@@ -176,10 +167,152 @@ const PlaceBid = () => {
                                         </div>
                                     </div>
                                 </li>
-                                <li class="product-data">
-                                    <div>
-                                        <h3>Earth's hidden extinctions</h3>
-                                        <table class="table">
+                                <li class="product-data bidslideli">
+                                    <div className='bid-overlay'></div>
+                                    <div className='bidinfo-box'>
+                                        <h3>Available Tire Information</h3>
+                                        <div className="row hidden-laptop">
+                                            <div className="col-lg-12 sepsec sold">
+                                                <div className="row">
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        Tiers
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6 text-gold">
+                                                        #1 !!
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        Total Pieces
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        1
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        Available
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        Sold!
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        Price
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        $ 180,000
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-12  sepsec">
+                                                <div className="row">
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        Tiers
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6 text-gold">
+                                                        Very Rare
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        Total Pieces
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        99
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        Available
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        # 78
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        Price
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        $ 1000
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6 iconbox">
+                                                        <ul class="list-inline pro-data-icons">
+                                                            <li class="list-inline-item"><div class="cart"></div></li>
+                                                            <li class="list-inline-item"><div class="wishlist"></div></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6 btnbox">
+                                                        <button type="button" class="my-btn proslide-bid-btn">PLACE A BID</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-12  sepsec">
+                                                <div className="row">
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        Tiers
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6 text-gold">
+                                                        Rare
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        Total Pieces
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        500
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        Available
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        # 439
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        Price
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        $ 500
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6 iconbox">
+                                                        <ul class="list-inline pro-data-icons">
+                                                            <li class="list-inline-item"><div class="cart"></div></li>
+                                                            <li class="list-inline-item"><div class="wishlist"></div></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6 btnbox">
+                                                        <button type="button" class="my-btn proslide-bid-btn">PLACE A BID</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-12  sepsec">
+                                                <div className="row">
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        Tiers
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6 text-gold">
+                                                        Collectible
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        Total Pieces
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        10,000
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        Available
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        # 1,876
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        Price
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+                                                        $ 25
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6 iconbox">
+                                                        <ul class="list-inline pro-data-icons">
+                                                            <li class="list-inline-item"><div class="cart"></div></li>
+                                                            <li class="list-inline-item"><div class="wishlist"></div></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div className="col-lg-3 col-md-3 col-sm-4 col-6 btnbox">
+                                                        <button type="button" class="my-btn proslide-bid-btn">PLACE A BID</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <table class="table hidden-mobile">
                                             <thead>
                                                 <tr>
                                                     <th width="20%">Tiers</th>

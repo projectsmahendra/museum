@@ -126,7 +126,7 @@ const AllArtifacts = () => {
     return (
         <>
             {/* <!-- breadcrumb --> */}
-            <section class="breadcrumb-section section top-section">
+            <section class="breadcrumb-section section collect-top-section">
                 <div class="container">
                     <ul>
                         <li class="bread-parent">COLLECT</li>
@@ -143,13 +143,19 @@ const AllArtifacts = () => {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8">
-                            <h1 class="page-title list-inline-item">All Artifacts</h1>
+                            <h1 class="page-title">All Artifacts</h1>
                             <p class="page-details">Lorem consectetur adipilorum ipsumdolar sitamis</p>
                         </div>
                         <div class="col-md-4 searchbox">
                             <form class="d-flex">
-                                <img class="img-fluid collect-search-icon" src="../../assets/images/icons/search.png" alt="search" />
-                                <input class="form-control me-2 collect-search ml-auto" type="search" placeholder="Search Here" aria-label="Search" />
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text"><img class="img-fluid collect-search-icon" src="../../assets/images/icons/search.png" alt="search" /></div>
+                                    </div>
+                                    <input type="search" class="form-control" id="inlineFormInputGroup" placeholder="Search Here" />
+                                </div>
+                                {/* <img class="img-fluid collect-search-icon" src="../../assets/images/icons/search.png" alt="search" />
+                                <input class="form-control me-2 collect-search ml-auto" type="search" placeholder="Search Here" aria-label="Search" /> */}
                                 <button class="search-btn-outline ml-auto" type="submit"><img class="img-fluid" src="../../assets/images/icons/search-btn.png" alt="search" /></button>
                             </form>
                         </div>

@@ -84,7 +84,7 @@ const Metaverse = () => {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8">
-                            <h1 class="page-title list-inline-item">Metaverse</h1>
+                            <h1 class="page-title">Metaverse</h1>
                             <p class="page-details">Lorem consectetur adipis</p>
                         </div>
                     </div>

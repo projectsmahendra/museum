@@ -7,7 +7,7 @@ const Upcoming = () => {
     return (
         <>
             {/* <!-- breadcrumb --> */}
-            <section class="breadcrumb-section section top-section">
+            <section class="breadcrumb-section section collect-top-section">
                 <div class="container">
                     <ul>
                         <li class="bread-parent">COLLECT</li>
@@ -24,7 +24,7 @@ const Upcoming = () => {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-8">
-                            <h1 class="page-title list-inline-item">Fossils</h1>
+                            <h1 class="page-title">Fossils</h1>
                             <p class="page-details">Earth's hidden extinctions</p>
                         </div>
                         {/* <div class="col-md-4 searchbox">
