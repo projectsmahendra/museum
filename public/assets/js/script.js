@@ -158,11 +158,6 @@
 		$('[data-toggle="tooltip"]').tooltip();
 
 
-		var $grid = $('.grid').masonry({
-			// columnWidth: 120,
-			itemSelector: '.grid-item',
-			gutter: 10
-		});
 
 		// $grid.on( 'click', '.curr-list-box', function( event ) {
 		// 	// $( event.currentTarget ).parent('.grid-item').toggleClass('is-expanded');
@@ -194,11 +189,27 @@
 		// 	}
 		// )
 
+
+
+		var $grid = $('.grid').masonry({
+			// columnWidth: 120,
+			itemSelector: '.grid-item',
+			gutter: 10
+		});
+
+
+		// $grid.on('click', '.cbul', function (event) {
+		// 	$(this).parent().parent().parent().parent().parent().parent().toggleClass("is-expanded");
+		// 	$grid.masonry();
+		// });
+
+
+
 		$('.grid-item').hover(
-			function () {
+			function (event) {
 				$(this).addClass("is-expanded"); //Add an active class to the anchor
 			},
-			function () {
+			function (event) {
 				$(this).removeClass("is-expanded"); //Remove an active class to the anchor
 			}
 		)

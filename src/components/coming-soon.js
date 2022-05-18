@@ -77,7 +77,7 @@ const ComingSoon = () => {
                 <div class="container">
                     <div class="coming-soon-content text-center">
                         <h2 class="coming-soon-section-title">Coming Soon!</h2>
-                        <p class="coming-soon-section-detail mb-5">Our team is working on the new pages of <span className='text-bold'>About, Museums, Partons, <br/>Collectors, Auction Partner, The Future, News, Subscribe.</span></p>
+                        <p class="coming-soon-section-detail mb-5">Our team is working on the new pages of <span className='text-bold'>About, Museums, Patrons, <br/>Collectors, Auction Partner, The Future, News, Subscribe.</span></p>
                     </div>
                 </div>
             </section>

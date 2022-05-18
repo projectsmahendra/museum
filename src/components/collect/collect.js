@@ -54,7 +54,7 @@ const Collect = () => {
                         <div class="grid-item">
                             <div class="grid-item-content">
                                 <a href='place-bid'>
-                                    <div class="card p-0 hover-shadow" style={{ backgroundImage: `url("/assets/images/museums/adrian-n-oJhaFeoRFDw-unsplash.jpg")` }}>
+                                    <div class="card p-0 hover-shadow" style={{ backgroundImage: `url("/assets/images/museums/test.jpg")` }}>
                                         <div class="current-overlay"></div>
                                         <div class="card-body">
                                             <div class="right-side">
@@ -62,15 +62,15 @@ const Collect = () => {
                                             </div>
                                             <div class="current-bottom">
                                                 <div class="card-label">FOSSIL</div>
-                                                <h3 class="current-title">Earth's hidden extinctions</h3>
-                                                <p class="current-subtitle">Fossil record during the mass extinction</p>
+                                                <h3 class="current-title">Nautilus shell</h3>
+                                                <p class="current-subtitle">Lorem ipsum dolor sit amet, consectetur.</p>
                                                 <div class="current-box">
                                                     <ul class="cbul left-side">
                                                         <li class="cbul-thumb">
                                                             <img class="card-img-top img-fluid" src="../../assets/images/museums/thumb-1.png" alt="openings" />
                                                         </li>
                                                         <li class="cbul-dtl">
-                                                            <span class="card-head">Antique Museum</span>
+                                                            <span class="card-head">Dianosar Museum</span>
                                                             <br />
                                                             <span class="card-subhead">Toronto, Canada</span>
                                                         </li>
@@ -150,9 +150,9 @@ const Collect = () => {
                                                 <div class="current-label">Ends in 5 Days</div>
                                             </div>
                                             <div class="current-bottom">
-                                                <div class="card-label">FOSSIL</div>
-                                                <h3 class="current-title">Earth's hidden extinctions</h3>
-                                                <p class="current-subtitle">Fossil record during the mass extinction</p>
+                                                <div class="card-label">SCULPTURE</div>
+                                                <h3 class="current-title">Dinosaur skeleton</h3>
+                                                <p class="current-subtitle">Lorem ipsum dolor sit amet.</p>
                                                 <div class="current-box">
                                                     <ul class="cbul left-side">
                                                         <li class="cbul-thumb">
@@ -236,16 +236,16 @@ const Collect = () => {
                                                 <div class="current-label">Ends in 5 Days</div>
                                             </div>
                                             <div class="current-bottom">
-                                                <div class="card-label">FOSSIL</div>
-                                                <h3 class="current-title">Earth's hidden extinctions</h3>
-                                                <p class="current-subtitle">Fossil record during the mass extinction</p>
+                                                <div class="card-label">CHINESE</div>
+                                                <h3 class="current-title">Chinese clay warrior</h3>
+                                                <p class="current-subtitle">Lorem ipsum dolor sit amet, consectetur.</p>
                                                 <div class="current-box">
                                                     <ul class="cbul left-side">
                                                         <li class="cbul-thumb">
                                                             <img class="card-img-top img-fluid" src="../../assets/images/museums/thumb-1.png" alt="openings" />
                                                         </li>
                                                         <li class="cbul-dtl">
-                                                            <span class="card-head">Antique Museum</span>
+                                                            <span class="card-head">Jade Museum</span>
                                                             <br />
                                                             <span class="card-subhead">Toronto, Canada</span>
                                                         </li>
@@ -322,16 +322,16 @@ const Collect = () => {
                                                 <div class="current-label">Ends in 5 Days</div>
                                             </div>
                                             <div class="current-bottom">
-                                                <div class="card-label">FOSSIL</div>
-                                                <h3 class="current-title">Earth's hidden extinctions</h3>
-                                                <p class="current-subtitle">Fossil record during the mass extinction</p>
+                                                <div class="card-label">EGYPT</div>
+                                                <h3 class="current-title">Egyptian falcon god</h3>
+                                                <p class="current-subtitle">Lorem ipsum dolor sit amet consec.</p>
                                                 <div class="current-box">
                                                     <ul class="cbul left-side">
                                                         <li class="cbul-thumb">
                                                             <img class="card-img-top img-fluid" src="../../assets/images/museums/thumb-1.png" alt="openings" />
                                                         </li>
                                                         <li class="cbul-dtl">
-                                                            <span class="card-head">Antique Museum</span>
+                                                            <span class="card-head">Military Museum</span>
                                                             <br />
                                                             <span class="card-subhead">Toronto, Canada</span>
                                                         </li>

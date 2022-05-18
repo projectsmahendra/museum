@@ -82,9 +82,9 @@ const Home = () => {
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <p class="text-white slide-tophd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1"><span>Experience</span> <img src="../../assets/images/banner/slide-tophd.png" alt="slide-tophd" /></p>
-                                    <h1 class="text-white slide-head" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Museums in amazing new ways</h1>
-                                    <p class="text-white mb-4 slide-subhd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">Fossil record during the mass extinction</p>
+                                    <p class="text-white slide-tophd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1"><img className='hidden-laptop' src="../../assets/images/banner/slide-tophd.png" alt="slide-tophd" /> <span>Experience</span> <img src="../../assets/images/banner/slide-tophd.png" alt="slide-tophd" /></p>
+                                    <h1 class="text-white slide-head" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">Museums in amazing new ways</h1>
+                                    {/* <p class="text-white mb-4 slide-subhd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">Fossil record during the mass extinction</p> */}
                                     <a href="#" class="my-btn hero-section-btn" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">EXPLORE MORE <img class="img-fluid ml-15 mt-4" src="../../assets/images/icons/arr-right.png" alt="arrow" /></a>
                                 </div>
                             </div>
@@ -95,9 +95,9 @@ const Home = () => {
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <p class="text-white slide-tophd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Collect <img src="../../assets/images/banner/slide-tophd.png" alt="slide-tophd" /></p>
-                                    <h1 class="text-white slide-head" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">The rarest art and artifacts on the planet</h1>
-                                    <p class="text-white mb-4 slide-subhd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">Fossil record during the mass extinction</p>
+                                    <p class="text-white slide-tophd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1"><img className='hidden-laptop' src="../../assets/images/banner/slide-tophd.png" alt="slide-tophd" /> Collect <img src="../../assets/images/banner/slide-tophd.png" alt="slide-tophd" /></p>
+                                    <h1 class="text-white slide-head" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">The rarest art and artifacts on the planet</h1>
+                                    {/* <p class="text-white mb-4 slide-subhd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">Fossil record during the mass extinction</p> */}
                                     <a href="#" class="my-btn hero-section-btn" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">EXPLORE MORE <img class="img-fluid ml-15 mt-4" src="../../assets/images/icons/arr-right.png" alt="arrow" /></a>
                                 </div>
                             </div>
@@ -108,9 +108,9 @@ const Home = () => {
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <p class="text-white slide-tophd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Experience <img src="../../assets/images/banner/slide-tophd.png" alt="slide-tophd" /></p>
-                                    <h1 class="text-white slide-head" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Museums in amazing new ways</h1>
-                                    <p class="text-white mb-4 slide-subhd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">Fossil record during the mass extinction</p>
+                                    <p class="text-white slide-tophd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1"><img className='hidden-laptop' src="../../assets/images/banner/slide-tophd.png" alt="slide-tophd" /> Experience <img src="../../assets/images/banner/slide-tophd.png" alt="slide-tophd" /></p>
+                                    <h1 class="text-white slide-head" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">Museums in amazing new ways</h1>
+                                    {/* <p class="text-white mb-4 slide-subhd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">Fossil record during the mass extinction</p> */}
                                     <a href="#" class="my-btn hero-section-btn" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">EXPLORE MORE <img class="img-fluid ml-15 mt-4" src="../../assets/images/icons/arr-right.png" alt="arrow" /></a>
                                 </div>
                             </div>
@@ -121,9 +121,9 @@ const Home = () => {
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <p class="text-white slide-tophd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Collect <img src="../../assets/images/banner/slide-tophd.png" alt="slide-tophd" /></p>
-                                    <h1 class="text-white slide-head" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">The rarest art and artifacts on the planet</h1>
-                                    <p class="text-white mb-4 slide-subhd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">Fossil record during the mass extinction</p>
+                                    <p class="text-white slide-tophd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1"><img className='hidden-laptop' src="../../assets/images/banner/slide-tophd.png" alt="slide-tophd" /> Collect <img src="../../assets/images/banner/slide-tophd.png" alt="slide-tophd" /></p>
+                                    <h1 class="text-white slide-head" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">The rarest art and artifacts on the planet</h1>
+                                    {/* <p class="text-white mb-4 slide-subhd" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">Fossil record during the mass extinction</p> */}
                                     <a href="#" class="my-btn hero-section-btn" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">EXPLORE MORE <img class="img-fluid ml-15 mt-4" src="../../assets/images/icons/arr-right.png" alt="arrow" /></a>
                                 </div>
                             </div>

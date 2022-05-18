@@ -1315,10 +1315,24 @@ textarea.form-control {
     left: 15px !important;
   }
   .hero-slider .nextArrow {
-    left: 55px !important;
+    /* left: 55px !important; */
+    right: 15px !important;
   }
   .hero-slider .slick-dots {
-    left: 110px !important;
+    /* left: 110px !important; */
+  }
+  .slide-tophd img {
+    width: 40px !important;
+    margin: 0px 10px !important;
+  }
+  .slide-tophd {
+    justify-content: center;
+  }
+  .slide-head {
+    text-align: center;
+  }
+  .hero-section-btn {
+    margin: auto;
   }
 
   /* Home Page - creation-section */
@@ -3026,7 +3040,7 @@ link:focus,
   font-size: 14px;
   line-height: 23px;
   color: #FFFFFF;
-  width: 87px;
+  width: 100px;
   height: 36px;
   text-align: center;
   padding: 6px;
@@ -3599,9 +3613,12 @@ link:focus,
 
 .slide-tophd {
   font-weight: bold;
-  font-size: 16px;
-  line-height: 23px;
+  /* font-size: 16px;
+  line-height: 23px; */
+  font-size: 40px;
+  line-height: 32px;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .slide-tophd {
@@ -3618,9 +3635,13 @@ link:focus,
 }
 
 .slide-head {
-  font-weight: 600;
+  /* font-weight: 600;
   font-size: 44px;
-  line-height: 53px;
+  line-height: 53px; */
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 30px;
+  margin: 20px 0px;
 }
 
 .slide-subhd {

@@ -109,7 +109,7 @@ const CollectHeader = () => {
                                     </li>
                                     <li class="nav-item dropdown view ml-0">
                                         <a class="nav-link dropdown-toggle nav-link-large nav-link-hvr active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            COMING SOON
+                                            Dropping Soon
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <li><a class="dropdown-item active-gold" href="/art-results"><div class="mr-10 grey-gold comming-art"></div> ART</a></li>
@@ -229,7 +229,7 @@ const CollectHeader = () => {
                 </div>
             </header>
 
-            
+
             {/* Login Modal */}
             <div class="modal fade loginModal" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
