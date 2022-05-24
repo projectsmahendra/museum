@@ -3902,10 +3902,11 @@ link:focus,
 }
 #bidlightSlider .bidslideli {
   /* background-image: url(../images/banner/product-banner/3.png); */
-  background-image: url(../images/banner/product-banner/3-grey.png);
+  /* background-image: url(../images/banner/product-banner/3-grey.png); */
   background-size: cover;
   height: 912px;
   position: relative;
+  overflow: hidden;
 }
 .product-slider-section #bidlightSlider .product-img li {
   display: block;

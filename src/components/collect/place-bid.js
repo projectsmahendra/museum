@@ -126,7 +126,7 @@ const PlaceBid = () => {
                                         <img src="../../assets/images/banner/product-banner/2.png" alt="hidden-extinctions" />
                                     </a>
                                 </li> */}
-                                <li class="certi-box bidslideli">
+                                <li class="certi-box bidslideli" style={{ backgroundImage: `url(../../assets/images/banner/product-banner/3-grey.png)` }}>
                                     <div className='layer1'>
                                         <div className='layer2'>
                                             <div className='layer3'>
@@ -167,10 +167,10 @@ const PlaceBid = () => {
                                         </div>
                                     </div>
                                 </li>
-                                <li class="product-data bidslideli">
+                                <li class="product-data bidslideli" style={{ backgroundImage: `url(../../assets/images/banner/product-banner/3-grey.png)` }}>
                                     <div className='bid-overlay'></div>
                                     <div className='bidinfo-box'>
-                                        <h3>Available Tire Information</h3>
+                                        <h3>Available Tier Information</h3>
                                         <div className="row hidden-laptop">
                                             <div className="col-lg-12 sepsec sold">
                                                 <div className="row">
@@ -394,7 +394,36 @@ const PlaceBid = () => {
                                         </div>
                                     </div>
                                 </li>
-
+                                <li class="product-img bidslideli" data-thumb="../../assets/images/banner/product-banner/3.png">
+                                    <a href="../../assets/images/banner/product-banner/3.png" data-fancybox="gallery">
+                                        <img src="../../assets/images/banner/product-banner/3.png" alt="hidden-extinctions" />
+                                    </a>
+                                </li>
+                                <li class="product-img bidslideli" data-thumb="../../assets/images/banner/product-banner/3.png">
+                                    <a href="../../assets/images/banner/product-banner/3.png" data-fancybox="gallery">
+                                        <img src="../../assets/images/banner/product-banner/3.png" alt="hidden-extinctions" />
+                                    </a>
+                                </li>
+                                <li class="product-img bidslideli" data-thumb="../../assets/images/banner/product-banner/3.png">
+                                    <a href="../../assets/images/banner/product-banner/3.png" data-fancybox="gallery">
+                                        <img src="../../assets/images/banner/product-banner/3.png" alt="hidden-extinctions" />
+                                    </a>
+                                </li>
+                                <li class="product-img bidslideli" data-thumb="../../assets/images/banner/product-banner/3.png">
+                                    <a href="../../assets/images/banner/product-banner/3.png" data-fancybox="gallery">
+                                        <img src="../../assets/images/banner/product-banner/3.png" alt="hidden-extinctions" />
+                                    </a>
+                                </li>
+                                <li class="product-img bidslideli" data-thumb="../../assets/images/banner/product-banner/3.png">
+                                    <a href="../../assets/images/banner/product-banner/3.png" data-fancybox="gallery">
+                                        <img src="../../assets/images/banner/product-banner/3.png" alt="hidden-extinctions" />
+                                    </a>
+                                </li>
+                                <li class="product-img bidslideli" data-thumb="../../assets/images/banner/product-banner/3.png">
+                                    <a href="../../assets/images/banner/product-banner/3.png" data-fancybox="gallery">
+                                        <img src="../../assets/images/banner/product-banner/3.png" alt="hidden-extinctions" />
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
