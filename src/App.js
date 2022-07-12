@@ -12,6 +12,7 @@ import Games from './components/experiences/games';
 import Metaverse from './components/experiences/metaverse';
 
 import ComingSoon from './components/coming-soon';
+import SocialComingSoon from './components/social-coming-soon';
 
 
 import Collect from './components/collect/collect';
@@ -40,6 +41,7 @@ function App() {
           <Route path="/games" element={<Games />} />
           <Route path="/metaverse" element={<Metaverse />} />
           <Route path="coming-soon" element={<ComingSoon />} />
+          <Route path="social-coming-soon" element={<SocialComingSoon />} />
         </Route>
 
         <Route path="/current-auctions" element={<CollectLayout />} >

@@ -4506,6 +4506,45 @@ link:focus,
 }
 
 
+/* social-coming-soon-bg-section */
+.social-coming-soon-bg-section {
+  background-image: url("../images/backgrounds/social-coming-soon-bg.png");
+  background-color: #FFFFFF;
+  background-size: cover;
+  background-position: bottom;
+  height: 788px;
+  /* padding: 140px 0; */
+  position: relative;
+}
+
+.social-coming-soon-bg-section .current-overlay {
+  height: 788px;
+  width: auto;
+  background-image: url("../images/backgrounds/social-coming-soon-overlay.png");
+  background-size: cover;
+  background-position: top;
+}
+
+.social-coming-soon-bg-section .coming-soon-section-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 67px;
+  color: #FFFFFF;
+}
+
+.social-coming-soon-bg-section .coming-soon-section-detail {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  color: #ffffffe0;
+  opacity: 0.8;
+}
+.social-coming-soon-bg-section .coming-soon-content {
+  bottom: 160px;
+  top: unset !important;
+}
 
 
 /* /teacher */
