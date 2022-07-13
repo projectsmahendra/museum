@@ -32,7 +32,7 @@ function App() {
     <Router>
       <Routes>
         <Route exact path="/" element={<Layout />} >
-          <Route index element={<Home />} />
+          {/* <Route index element={<Home />} /> */}
           <Route path="/museum" element={<Museum />} />
           <Route path="/openings" element={<Opening />} />
           <Route path="/virtual-museums" element={<VirtualMuseums />} />
@@ -41,7 +41,7 @@ function App() {
           <Route path="/games" element={<Games />} />
           <Route path="/metaverse" element={<Metaverse />} />
           <Route path="coming-soon" element={<ComingSoon />} />
-          <Route path="social-coming-soon" element={<SocialComingSoon />} />
+          <Route index  element={<SocialComingSoon />} />
         </Route>
 
         <Route path="/current-auctions" element={<CollectLayout />} >
