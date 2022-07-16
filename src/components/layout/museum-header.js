@@ -18,14 +18,13 @@ const MuseumHeader = () => {
                         </ul>
                     </a>
                 </div>
-                <div class="top-header bg-white">
+                {/* <div class="top-header bg-white">
                     <div class="container">
                         <div class="row no-gutters">
                             <div class="col-lg-4 text-center text-lg-left">
                             </div>
                             <div class="col-lg-8 text-center text-lg-right">
                                 <ul class="list-inline right-side">
-                                    {/* <li class="list-inline-item py-2 head-search"><a class="text-uppercase text-lightenmore p-sm-2 py-2 px-0 d-inline-block" href="#"><i class="ti-search"></i></a></li> */}
                                     <li className='header-searchbar hidden-mobile'>
                                         <form class="search">
                                             <div class="search__wrapper">
@@ -47,8 +46,8 @@ const MuseumHeader = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <NavBarHome />
+                </div> */}
+                {/* <NavBarHome /> */}
             </header>
 
 
