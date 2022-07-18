@@ -77,7 +77,7 @@ const SocialComingSoon = () => {
                 <div class="container">
                     <div class="coming-soon-content text-center">
                         <h2 class="coming-soon-section-title">Coming Soon!</h2>
-                        <p class="coming-soon-section-detail mb-5">Lorem ipsum dolor sit amet, consectetur orem ipsum dolor sit amet</p>
+                        <p class="coming-soon-section-detail mb-5"></p>
                     </div>
                 </div>
             </section>

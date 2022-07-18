@@ -18,7 +18,7 @@ const MuseumHeader = () => {
                         </ul>
                     </a>
                 </div>
-                {/* <div class="top-header bg-white">
+                <div class="top-header bg-white">
                     <div class="container">
                         <div class="row no-gutters">
                             <div class="col-lg-4 text-center text-lg-left">
@@ -39,15 +39,15 @@ const MuseumHeader = () => {
                                             <input class="form-control head-search-input" type="search" placeholder="Search Here" aria-label="Search" />
                                         </form>
                                     </li>
-                                    <li class="list-inline-item py-2"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="coming-soon">NEWS</a></li>
-                                    <li class="list-inline-item py-2"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="coming-soon">SUBSCRIBE</a></li>
+                                    <li class="list-inline-item py-2"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="#">NEWS</a></li>
+                                    <li class="list-inline-item py-2"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="#">SUBSCRIBE</a></li>
                                     <li class="list-inline-item py-2"><a class="text-uppercase text-lighten p-sm-2 py-2 px-0 d-inline-block" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">LOGIN</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </div> */}
-                {/* <NavBarHome /> */}
+                </div>
+                <NavBarHome />
             </header>
 
 

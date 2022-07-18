@@ -105,36 +105,36 @@ const NavBarHome = () => {
 
                             <ul class="navbar-nav main-nav text-center mid-side">
                                 <li class="nav-item">
-                                    <a class="nav-link nav-link-mid nav-link-hvr" href="museum">MUSEUMS</a>
+                                    <a class="nav-link nav-link-mid nav-link-hvr" href="#">MUSEUMS</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link nav-link-mid nav-link-hvr active" href="openings">OPENINGS</a>
+                                    <a class="nav-link nav-link-mid nav-link-hvr active" href="#">OPENINGS</a>
                                 </li>
                                 <li class="nav-item dropdown view">
                                     <a class="nav-link dropdown-toggle nav-link-mid nav-link-hvr" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         EXPERIENCES
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="virtual-exhibits"><div class="mr-10 grey-gold virtualexhibits"></div> VIRTUAL EXHIBITS</a></li>
-                                        <li><a class="dropdown-item" href="virtual-tours"><div class="mr-10 grey-gold virtualtours"></div> VIRTUAL TOURS</a></li>
-                                        <li><a class="dropdown-item" href="virtual-museums"><div class="mr-10 grey-gold virtualmuseums"></div> VIRTUAL MUSEUMS</a></li>
-                                        <li><a class="dropdown-item" href="games"><div class="mr-10 grey-gold games"></div> GAMES</a></li>
-                                        <li><a class="dropdown-item" href="metaverse"><div class="mr-10 grey-gold metaverse"></div> METAVERSE</a></li>
+                                        <li><a class="dropdown-item" href="#"><div class="mr-10 grey-gold virtualexhibits"></div> VIRTUAL EXHIBITS</a></li>
+                                        <li><a class="dropdown-item" href="#"><div class="mr-10 grey-gold virtualtours"></div> VIRTUAL TOURS</a></li>
+                                        <li><a class="dropdown-item" href="#"><div class="mr-10 grey-gold virtualmuseums"></div> VIRTUAL MUSEUMS</a></li>
+                                        <li><a class="dropdown-item" href="#"><div class="mr-10 grey-gold games"></div> GAMES</a></li>
+                                        <li><a class="dropdown-item" href="#"><div class="mr-10 grey-gold metaverse"></div> METAVERSE</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link nav-link-mid nav-link-hvr" href="coming-soon">COMMUNITY</a>
+                                    <a class="nav-link nav-link-mid nav-link-hvr" href="#">COMMUNITY</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link nav-link-mid nav-link-hvr" href="coming-soon">HELP CENTER</a>
+                                    <a class="nav-link nav-link-mid nav-link-hvr" href="#">HELP CENTER</a>
                                 </li>
                             </ul>
                             <ul class="navbar-nav text-center lftnav ml-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link nav-link-mid nav-link-hvr" href="coming-soon">MY MUSEUM</a>
+                                    <a class="nav-link nav-link-mid nav-link-hvr" href="#">MY MUSEUM</a>
                                 </li>
                                 <li class="nav-item mr-0">
-                                    <a class="nav-link my-btn mt-6" href="/current-auctions">COLLECT</a>
+                                    <a class="nav-link my-btn mt-6" href="#">COLLECT</a>
                                 </li>
                             </ul>
                         </div>
