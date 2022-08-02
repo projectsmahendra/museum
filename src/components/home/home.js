@@ -262,7 +262,7 @@ const Home = () => {
                                 Visit the Help Center to answer all your questions  about the site , NFTs , and how to collect<br/>
                                 <span className='text-bold'>If you’d like to be updated with our weekly newsletter please subscribe now</span>    
                                 </p>
-                                <a href="#" class="my-btn works-section-btn ml-auto">Subscribe for free now ! <img class="img-fluid ml-15 mt-4" src="../../assets/images/icons/arr-right.png" alt="arrow" /></a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#subscribeModal" class="my-btn works-section-btn ml-auto">Subscribe for free now ! <img class="img-fluid ml-15 mt-4" src="../../assets/images/icons/arr-right.png" alt="arrow" /></a>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-4 position-relative success-video hidden-laptop"></div>
@@ -270,7 +270,7 @@ const Home = () => {
                 </div>
             </section>
             {/* <!-- /How it works --> */}
-
+            
             {/* <!-- bg2-section --> */}
             <section class="section bg2-section">
                 <div class="container">
@@ -282,7 +282,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>          
         </div>
     );
 };

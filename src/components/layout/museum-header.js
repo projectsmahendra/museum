@@ -289,6 +289,45 @@ const MuseumHeader = () => {
                     </div>
                 </div>
             </div>
+            <div class="modal fade partner-modal" id="subscribeModal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content rounded-0 border-0 p-4">
+
+                        <div class="modal-body">
+                            <div className='row'>
+                                <div class="col-lg-6 login-bg">
+                                    <img src="../../assets/images/login-logo.png" class="login-logo" alt="logo" />
+                                </div>
+                                <div class="col-lg-6 login-form-box">
+                                    <div className='close-box'>
+                                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div className='login-cont-box'>
+                                        <h3>Subscribe</h3>
+                                        <p>If you’d like to be updated with our weekly newsletter please subscribe now</p>
+                                        <form action="https://museums.us9.list-manage.com/subscribe/post?u=753f59b07c3bdcb27e0323b60&amp;id=807a60a530" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="row">
+                                            <div class="col-12">
+                                                <div class="input-group mb-2">
+                                                    <div class="input-group-prepend">
+                                                        <div class="input-group-text"><img src="../../assets/images/icons/login-user.png" alt="logo" /></div>
+                                                    </div>
+                                                    <input type="email" class="form-control" id="mce-EMAIL" name="EMAIL" placeholder="email" />
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <button type="submit" class="my-btn login-btn">Submit</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </>
     );
