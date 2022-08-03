@@ -71,7 +71,7 @@ function App() {
         <Route path="/fossils" element={<CollectLayout />} >
           <Route index element={<Fossils />} />
         </Route>
-        <Route path="/place-bid" element={<CollectLayout />} >
+        <Route path="/place-bid/:bidId" element={<CollectLayout />} >
           <Route index element={<PlaceBid />} />
         </Route>
 
